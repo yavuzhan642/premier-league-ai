@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import sys
 import numpy as np
 import pandas as pd
 
@@ -356,6 +356,8 @@ def simulate_season(seed=None):
         build_current_ratings()
     )
 
+    starting_ratings = ratings.copy()
+
     # ----------------------------------
     # SON 5 FORM İÇİN GEÇMİŞ MAÇLAR
     # ----------------------------------
@@ -534,12 +536,19 @@ def simulate_season(seed=None):
         "seed": seed,
         "table": table,
         "simulated_matches": simulated,
+        "starting_ratings": starting_ratings,
         "final_ratings": ratings,
     }
 
-
 def main():
-    result = simulate_season()
+    seed = None
+
+    if len(sys.argv) > 1:
+        seed = int(sys.argv[1])
+
+    result = simulate_season(
+        seed=seed
+    )
 
     seed = result["seed"]
     table = result["table"]
@@ -584,6 +593,98 @@ def main():
         ", ".join(relegated),
     )
 
+    starting_ratings = result["starting_ratings"]
+    final_ratings = result["final_ratings"]
+
+    # Sezon başındaki güç sırası
+    starting_order = sorted(
+        starting_ratings,
+        key=starting_ratings.get,
+        reverse=True,
+    )
+
+    starting_rank = {
+        team: rank
+        for rank, team in enumerate(
+            starting_order,
+            start=1,
+        )
+    }
+
+    # Final lig sırası
+    final_rank = {
+        row["team"]: rank
+        for rank, (_, row) in enumerate(
+            table.iterrows(),
+            start=1,
+        )
+    }
+
+    rank_changes = {}
+
+    for team in final_rank:
+        rank_changes[team] = (
+            starting_rank[team]
+            - final_rank[team]
+        )
+
+    dark_horse = max(
+        rank_changes,
+        key=rank_changes.get,
+    )
+
+    disappointment = min(
+        rank_changes,
+        key=rank_changes.get,
+    )
+
+    elo_changes = {
+        team: (
+            final_ratings[team]
+            - starting_ratings[team]
+        )
+        for team in final_ratings
+    }
+
+    biggest_elo_riser = max(
+        elo_changes,
+        key=elo_changes.get,
+    )
+
+    biggest_elo_faller = min(
+        elo_changes,
+        key=elo_changes.get,
+    )
+
+    print()
+    print("SEZON HİKÂYESİ")
+    print("--------------")
+
+    print(
+        "🌟 Dark horse:",
+        dark_horse,
+        f"({starting_rank[dark_horse]}. güç → "
+        f"{final_rank[dark_horse]}. sıra)",
+    )
+
+    print(
+        "📉 En büyük düşüş:",
+        disappointment,
+        f"({starting_rank[disappointment]}. güç → "
+        f"{final_rank[disappointment]}. sıra)",
+    )
+
+    print(
+        "📈 En çok Elo kazanan:",
+        biggest_elo_riser,
+        f"{elo_changes[biggest_elo_riser]:+.1f}",
+    )
+
+    print(
+        "📉 En çok Elo kaybeden:",
+        biggest_elo_faller,
+        f"{elo_changes[biggest_elo_faller]:+.1f}",
+    )
 
 if __name__ == "__main__":
     main()
