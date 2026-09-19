@@ -453,6 +453,9 @@ def simulate_season(seed=None):
                 "away_expected_goals": (
                     away_expected
                 ),
+
+                "home_elo_before": ratings[home_team],
+                "away_elo_before": ratings[away_team],
             }
         )
 
@@ -685,6 +688,115 @@ def main():
         biggest_elo_faller,
         f"{elo_changes[biggest_elo_faller]:+.1f}",
     )
+
+    simulated = result["simulated_matches"].copy()
+
+    # --------------------------------
+    # EN GOLLÜ MAÇ
+    # --------------------------------
+
+    simulated["total_goals"] = (
+        simulated["fthg"]
+        + simulated["ftag"]
+    )
+
+    highest_scoring = simulated.loc[
+        simulated["total_goals"].idxmax()
+    ]
+
+    # --------------------------------
+    # EN FARKLI GALİBİYET
+    # --------------------------------
+
+    simulated["goal_margin"] = (
+        simulated["fthg"]
+        - simulated["ftag"]
+    ).abs()
+
+    biggest_win = simulated.loc[
+        simulated["goal_margin"].idxmax()
+    ]
+
+    # --------------------------------
+    # EN BÜYÜK SÜRPRİZ
+    # --------------------------------
+
+    upsets = []
+
+    for _, match in simulated.iterrows():
+
+        # Ev sahibi kazandı ama maç öncesi
+        # Elo'su daha düşüktü.
+        if (
+            match["ftr"] == "H"
+            and match["home_elo_before"]
+            < match["away_elo_before"]
+        ):
+            upset_size = (
+                match["away_elo_before"]
+                - match["home_elo_before"]
+            )
+
+            upsets.append(
+                (
+                    upset_size,
+                    match,
+                )
+            )
+
+        # Deplasman kazandı ama maç öncesi
+        # Elo'su daha düşüktü.
+        elif (
+            match["ftr"] == "A"
+            and match["away_elo_before"]
+            < match["home_elo_before"]
+        ):
+            upset_size = (
+                match["home_elo_before"]
+                - match["away_elo_before"]
+            )
+
+            upsets.append(
+                (
+                    upset_size,
+                    match,
+                )
+            )
+
+    print()
+    print("UNUTULMAZ MAÇLAR")
+    print("----------------")
+
+    print(
+        "⚽ En gollü maç:",
+        f"{highest_scoring['home_team']} "
+        f"{int(highest_scoring['fthg'])}-"
+        f"{int(highest_scoring['ftag'])} "
+        f"{highest_scoring['away_team']}",
+    )
+
+    print(
+        "💥 En farklı galibiyet:",
+        f"{biggest_win['home_team']} "
+        f"{int(biggest_win['fthg'])}-"
+        f"{int(biggest_win['ftag'])} "
+        f"{biggest_win['away_team']}",
+    )
+
+    if upsets:
+        upset_size, biggest_upset = max(
+            upsets,
+            key=lambda item: item[0],
+        )
+
+        print(
+            "🤯 En büyük sürpriz:",
+            f"{biggest_upset['home_team']} "
+            f"{int(biggest_upset['fthg'])}-"
+            f"{int(biggest_upset['ftag'])} "
+            f"{biggest_upset['away_team']} "
+            f"(Elo farkı: {upset_size:.1f})",
+        )
 
 if __name__ == "__main__":
     main()

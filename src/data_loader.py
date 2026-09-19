@@ -24,6 +24,7 @@ TEAM_NAME_MAP = {
     "Coventry City FC": "Coventry",
     "Crystal Palace FC": "Crystal Palace",
     "Everton FC": "Everton",
+    "EvertonFC": "Everton",
     "Fulham FC": "Fulham",
     "Hull City AFC": "Hull",
     "Ipswich Town FC": "Ipswich",
