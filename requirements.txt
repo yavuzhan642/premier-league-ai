@@ -5,3 +5,4 @@ requests
 beautifulsoup4
 jupyter
 matplotlib
+git+https://github.com/AnishKhetani/premier-league-data
