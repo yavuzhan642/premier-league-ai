@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
-
 from data_loader import load_seasons
+from elo import calculate_elo_history
 
 
 def get_team_recent_form(matches, team, before_date, last_n=5):
@@ -71,6 +71,10 @@ def build_feature_dataset(matches):
             "home_team": home_team,
             "away_team": away_team,
 
+            "home_elo": match["home_elo"],
+            "away_elo": match["away_elo"],
+            "elo_difference": match["elo_difference"],
+
             "home_last5_games": home_form["games"],
             "home_last5_points": home_form["points"],
             "home_last5_goals_for": home_form["goals_for"],
@@ -101,6 +105,8 @@ def main():
     ]
 
     matches = load_seasons(seasons)
+
+    matches, _ = calculate_elo_history(matches)
 
     dataset = build_feature_dataset(matches)
 

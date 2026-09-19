@@ -9,9 +9,14 @@ DATA_PATH = Path("data/processed/match_features.csv")
 
 
 FEATURES = [
+    "home_elo",
+    "away_elo",
+    "elo_difference",
+
     "home_last5_points",
     "home_last5_goals_for",
     "home_last5_goals_against",
+    
     "away_last5_points",
     "away_last5_goals_for",
     "away_last5_goals_against",
