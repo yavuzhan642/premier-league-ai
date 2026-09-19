@@ -1,4 +1,5 @@
 import premier_league_data as pl
+import pandas as pd
 
 
 def load_all_matches():
@@ -25,6 +26,17 @@ def main():
 
     print("\nTakımlar:")
     print(sorted(season["home_team"].unique()))
+
+def load_seasons(season_names):
+    matches = load_all_matches()
+
+    selected = matches[
+        matches["season"].isin(season_names)
+    ].copy()
+
+    selected["date"] = pd.to_datetime(selected["date"])
+
+    return selected.sort_values("date")
 
 
 if __name__ == "__main__":
