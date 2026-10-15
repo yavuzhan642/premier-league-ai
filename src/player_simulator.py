@@ -9,8 +9,11 @@ from simulator import simulate_season
 
 ASSIST_PROBABILITY = 0.72
 
+REFERENCE_DATE = pd.Timestamp(
+    "2026-09-19"
+)
 
-# Pozisyonun doğal gol üretme seviyesi.
+
 GOAL_POSITION_BASE = {
     "Offence": 2.7,
     "Midfield": 0.85,
@@ -19,7 +22,6 @@ GOAL_POSITION_BASE = {
 }
 
 
-# Pozisyonun doğal asist üretme seviyesi.
 ASSIST_POSITION_BASE = {
     "Offence": 2.2,
     "Midfield": 3.0,
@@ -28,7 +30,6 @@ ASSIST_POSITION_BASE = {
 }
 
 
-# Basit 4-3-3 başlangıç dizilişi.
 STARTER_TARGETS = {
     "Goalkeeper": 1,
     "Defence": 4,
@@ -40,29 +41,215 @@ STARTER_TARGETS = {
 BENCH_SIZE = 5
 
 
-def get_selection_weights(players):
+# ==========================================================
+# OVERALL
+# ==========================================================
+
+
+def calculate_age(
+    date_of_birth,
+):
+    if pd.isna(date_of_birth):
+        return None
+
+    birth_date = pd.to_datetime(
+        date_of_birth,
+        errors="coerce",
+    )
+
+    if pd.isna(birth_date):
+        return None
+
+    age = (
+        REFERENCE_DATE.year
+        - birth_date.year
+    )
+
+    if (
+        REFERENCE_DATE.month,
+        REFERENCE_DATE.day,
+    ) < (
+        birth_date.month,
+        birth_date.day,
+    ):
+        age -= 1
+
+    return age
+
+
+def get_age_adjustment(age):
     """
-    İlk 11 / kadro seçiminde kullanılır.
+    Overall = mevcut güç.
 
-    Mevcut sezonda gol/asist üretmiş oyuncuların
-    oynama ihtimali biraz daha yüksek olur.
-
-    simulated_minutes sayesinde sezon ilerledikçe
-    düzenli oynayan oyuncuların rolü biraz oturur.
+    Genç oyuncuların market value/potential
+    konusunu daha sonra ayrı ele alacağız.
     """
 
-    weights = (
-        1.0
-        + players["real_goals"].astype(float) * 1.0
-        + players["real_assists"].astype(float) * 0.6
-        + 0.10
+    if age is None:
+        return 0.0
+
+    if age <= 18:
+        return -1.0
+
+    if age <= 21:
+        return -0.5
+
+    if age <= 29:
+        return 0.0
+
+    if age <= 32:
+        return -0.5
+
+    return -1.5
+
+
+def add_player_overalls(
+    players,
+    team_ratings,
+):
+    """
+    İlk overall modelimiz.
+
+    Bu henüz gerçek oyuncu rating datası değil.
+    Market value geldiğinde geliştirilecek.
+    """
+
+    players = players.copy()
+
+    players["age"] = (
+        players["date_of_birth"]
+        .apply(calculate_age)
+    )
+
+    players["team_elo"] = (
+        players["team"]
+        .map(team_ratings)
+        .fillna(1500.0)
+        .astype(float)
+    )
+
+    # Takım seviyesini yaklaşık 70-85
+    # overall tabanına dönüştürüyoruz.
+    players["team_base_overall"] = (
+        72.0
+        + (
+            players["team_elo"]
+            - 1450.0
+        )
+        / 24.0
+    ).clip(
+        lower=70.0,
+        upper=85.0,
+    )
+
+    position_bonus = (
+        players["position"]
+        .map(
+            {
+                "Offence": 1.0,
+                "Midfield": 0.5,
+                "Defence": 0.0,
+                "Goalkeeper": 0.0,
+            }
+        )
+        .fillna(0.0)
+    )
+
+    # Raw gol sayısını direkt eklemiyoruz.
+    # sqrt ile aşırı büyümeyi engelliyoruz.
+    goal_bonus = (
+        2.3
         * np.sqrt(
-            players["simulated_minutes"].astype(float)
-            / 90.0
+            players["real_goals"]
+            .astype(float)
         )
     )
 
-    return weights
+    assist_bonus = (
+        1.0
+        * np.sqrt(
+            players["real_assists"]
+            .astype(float)
+        )
+    )
+
+    age_adjustment = (
+        players["age"]
+        .apply(get_age_adjustment)
+    )
+
+    raw_overall = (
+        players[
+            "team_base_overall"
+        ]
+        + position_bonus
+        + goal_bonus
+        + assist_bonus
+        + age_adjustment
+    )
+
+    players["overall"] = (
+        raw_overall
+        .round()
+        .clip(
+            lower=65,
+            upper=92,
+        )
+        .astype(int)
+    )
+
+    return players
+
+
+# ==========================================================
+# SEÇİM AĞIRLIĞI
+# ==========================================================
+
+
+def get_selection_weights(
+    players,
+):
+    """
+    Overall ilk 11 seçiminde çok güçlü faktör.
+
+    90 overall ile 75 overall arasında
+    büyük fark yaratıyoruz.
+
+    Ama simüle sezondaki form da
+    küçük bir etki yapmaya devam ediyor.
+    """
+
+    overall = (
+        players["overall"]
+        .astype(float)
+    )
+
+    max_overall = overall.max()
+
+    overall_strength = np.exp(
+        (
+            overall
+            - max_overall
+        )
+        / 3.5
+    )
+
+    form_multiplier = (
+        1.0
+        + 0.10
+        * players[
+            "simulated_goals"
+        ].astype(float)
+        + 0.06
+        * players[
+            "simulated_assists"
+        ].astype(float)
+    )
+
+    return (
+        overall_strength
+        * form_multiplier
+    )
 
 
 def weighted_sample(
@@ -70,12 +257,10 @@ def weighted_sample(
     count,
     rng,
 ):
-    """
-    Bir DataFrame içinden ağırlıklı ve
-    tekrarsız oyuncu seçer.
-    """
-
-    if candidates.empty or count <= 0:
+    if (
+        candidates.empty
+        or count <= 0
+    ):
         return []
 
     count = min(
@@ -85,10 +270,13 @@ def weighted_sample(
 
     weights = get_selection_weights(
         candidates
-    ).to_numpy(dtype=float)
+    ).to_numpy(
+        dtype=float
+    )
 
     probabilities = (
-        weights / weights.sum()
+        weights
+        / weights.sum()
     )
 
     chosen = rng.choice(
@@ -101,22 +289,27 @@ def weighted_sample(
     return chosen.tolist()
 
 
+# ==========================================================
+# MAÇ KADROSU
+# ==========================================================
+
+
 def select_match_players(
     players,
     team,
     rng,
 ):
     """
-    Bir takım için:
+    Overall'a göre:
 
-    - 11 starter seçer
-    - 5 kişilik yedek havuzu oluşturur
-    - 3-5 oyuncuyu oyuna sokar
-    - oyunculara dakika dağıtır
+    11 starter
+    +
+    5 kişilik bench
 
-    Dönüş:
-    minutes_by_player -> {index: dakika}
-    starters -> starter index listesi
+    seçilir.
+
+    Sonra daha düşük overall starterların
+    değiştirilme ihtimali daha yüksek olur.
     """
 
     team_players = players[
@@ -129,9 +322,11 @@ def select_match_players(
     # İLK 11
     # -----------------------------
 
-    for position, target in (
-        STARTER_TARGETS.items()
-    ):
+    for (
+        position,
+        target,
+    ) in STARTER_TARGETS.items():
+
         candidates = team_players[
             (
                 team_players["position"]
@@ -150,9 +345,12 @@ def select_match_players(
             rng,
         )
 
-        starters.extend(chosen)
+        starters.extend(
+            chosen
+        )
 
-    # Pozisyon eksikliği varsa 11'e tamamla.
+    # Pozisyon eksikliği varsa
+    # 11'e tamamla.
     if len(starters) < 11:
 
         remaining = team_players[
@@ -161,7 +359,9 @@ def select_match_players(
             )
         ]
 
-        missing = 11 - len(starters)
+        missing = (
+            11 - len(starters)
+        )
 
         extra = weighted_sample(
             remaining,
@@ -169,10 +369,12 @@ def select_match_players(
             rng,
         )
 
-        starters.extend(extra)
+        starters.extend(
+            extra
+        )
 
     # -----------------------------
-    # YEDEKLER
+    # BENCH
     # -----------------------------
 
     remaining = team_players[
@@ -181,8 +383,6 @@ def select_match_players(
         )
     ]
 
-    # Şimdilik yedek kaleci sistemine girmiyoruz.
-    # Gol/asist simülasyonu için 5 outfield bench.
     outfield_remaining = remaining[
         remaining["position"]
         != "Goalkeeper"
@@ -203,35 +403,82 @@ def select_match_players(
         for player_index in starters
     }
 
-    # 3 ila 5 değişiklik.
+    # Kaç oyuncu değişikliği?
     number_of_subs = int(
         rng.integers(
             3,
-            min(5, len(bench)) + 1,
+            min(
+                5,
+                len(bench),
+            )
+            + 1,
         )
     )
 
-    if number_of_subs > 0:
-
-        used_subs = rng.choice(
-            bench,
-            size=number_of_subs,
-            replace=False,
-        ).tolist()
-
-    else:
-        used_subs = []
+    available_bench = (
+        bench.copy()
+    )
 
     replaced_starters = set()
 
-    for sub_index in used_subs:
+    for _ in range(
+        number_of_subs
+    ):
+
+        if not available_bench:
+            break
+
+        # -------------------------
+        # YEDEKTEN GİRECEK OYUNCU
+        # -------------------------
+
+        bench_candidates = (
+            players.loc[
+                available_bench
+            ]
+        )
+
+        bench_weights = (
+            get_selection_weights(
+                bench_candidates
+            )
+            .to_numpy(
+                dtype=float
+            )
+        )
+
+        bench_probabilities = (
+            bench_weights
+            / bench_weights.sum()
+        )
+
+        sub_index = int(
+            rng.choice(
+                bench_candidates
+                .index
+                .to_numpy(),
+                p=bench_probabilities,
+            )
+        )
+
+        available_bench.remove(
+            sub_index
+        )
 
         sub_position = players.at[
             sub_index,
             "position",
         ]
 
-        # Önce aynı pozisyondan çıkan birini ara.
+        sub_overall = players.at[
+            sub_index,
+            "overall",
+        ]
+
+        # -------------------------
+        # ÇIKACAK STARTER
+        # -------------------------
+
         same_position = [
             index
             for index in starters
@@ -252,13 +499,12 @@ def select_match_players(
         ]
 
         if same_position:
-            starter_index = rng.choice(
+            candidates = (
                 same_position
             )
 
         else:
-            # Olmazsa herhangi bir outfield starter.
-            available = [
+            candidates = [
                 index
                 for index in starters
                 if (
@@ -272,52 +518,137 @@ def select_match_players(
                 )
             ]
 
-            if not available:
+        if not candidates:
+            continue
+
+        starter_overalls = np.array(
+            [
+                players.at[
+                    index,
+                    "overall",
+                ]
+                for index in candidates
+            ],
+            dtype=float,
+        )
+
+        # Düşük overall oyuncunun
+        # çıkma ihtimali daha yüksek.
+        lowest = (
+            starter_overalls.min()
+        )
+
+        outgoing_weights = np.exp(
+            (
+                starter_overalls.max()
+                - starter_overalls
+            )
+            / 3.5
+        )
+
+        outgoing_probabilities = (
+            outgoing_weights
+            / outgoing_weights.sum()
+        )
+
+        starter_index = int(
+            rng.choice(
+                candidates,
+                p=outgoing_probabilities,
+            )
+        )
+
+        starter_overall = players.at[
+            starter_index,
+            "overall",
+        ]
+
+        # -------------------------
+        # DEĞİŞİKLİK KARARI
+        # -------------------------
+
+        # Bench oyuncusu starterdan çok
+        # daha kötüyse yıldızı sırf değişiklik
+        # yapmak için çıkarmayalım.
+        overall_difference = (
+            sub_overall
+            - starter_overall
+        )
+
+        if overall_difference <= -10:
+
+            # Çok kötü bench alternatifi.
+            # Sadece küçük ihtimalle değişiklik.
+            if rng.random() > 0.12:
                 continue
 
-            starter_index = rng.choice(
-                available
-            )
+        elif overall_difference <= -6:
+
+            if rng.random() > 0.30:
+                continue
 
         replaced_starters.add(
             starter_index
         )
 
-        # Oyuncu 55-85. dakikalar arasında çıkar.
+        # -------------------------
+        # DEĞİŞİKLİK DAKİKASI
+        # -------------------------
+
+        # Düşük overall oyuncu daha erken
+        # çıkabilir.
+
+        earliest_minute = (
+            55
+            + max(
+                0,
+                int(
+                    (
+                        starter_overall
+                        - 75
+                    )
+                    * 0.8
+                ),
+            )
+        )
+
+        earliest_minute = min(
+            earliest_minute,
+            80,
+        )
+
         substitution_minute = int(
             rng.integers(
-                55,
+                earliest_minute,
                 86,
             )
         )
 
-        minutes[starter_index] = (
-            substitution_minute
+        minutes[
+            starter_index
+        ] = substitution_minute
+
+        minutes[
+            sub_index
+        ] = (
+            90
+            - substitution_minute
         )
 
-        minutes[sub_index] = (
-            90 - substitution_minute
-        )
+    return (
+        minutes,
+        starters,
+    )
 
-    return minutes, starters
+
+# ==========================================================
+# GOL / ASİST
+# ==========================================================
 
 
 def get_goal_weights(
     match_players,
 ):
-    """
-    Golcü ağırlığı.
-
-    Önemli değişiklik:
-    gerçek gol artık pozisyon ağırlığına EKLENMİYOR.
-
-    Pozisyon ağırlığını ÇARPIYOR.
-
-    Böylece 2 gol atmış bir defans,
-    2 gol atmış bir forvet kadar güçlü
-    golcüye dönüşmüyor.
-    """
-
     position_base = (
         match_players["position"]
         .map(GOAL_POSITION_BASE)
@@ -325,17 +656,28 @@ def get_goal_weights(
         .astype(float)
     )
 
-    performance_multiplier = (
+    # Gerçek sezonun ilk birkaç maçındaki form
+    # önemli ama bütün yılı domine etmesin.
+    real_form_multiplier = (
         1.0
-        + 0.90
-        * match_players[
-            "real_goals"
-        ].astype(float)
+        + 0.35
+        * np.sqrt(
+            match_players[
+                "real_goals"
+            ].astype(float)
+        )
         + 0.12
-        * match_players[
-            "real_assists"
-        ].astype(float)
-        + 0.10
+        * np.sqrt(
+            match_players[
+                "real_assists"
+            ].astype(float)
+        )
+    )
+
+    # Alternatif evrende oluşan form.
+    simulated_form_multiplier = (
+        1.0
+        + 0.08
         * np.sqrt(
             match_players[
                 "simulated_goals"
@@ -343,8 +685,18 @@ def get_goal_weights(
         )
     )
 
-    # 90 dakika oynayan tam ağırlık.
-    # 15 dakika oynayan çok daha düşük ağırlık.
+    # Overall farkını artık daha güçlü
+    # şekilde gol yeteneğine yansıtıyoruz.
+    overall_multiplier = np.exp(
+        (
+            match_players[
+                "overall"
+            ].astype(float)
+            - 80.0
+        )
+        / 12.0
+    )
+
     minutes_multiplier = (
         match_players[
             "match_minutes"
@@ -352,25 +704,22 @@ def get_goal_weights(
         / 90.0
     )
 
-    weights = (
+    return (
         position_base
-        * performance_multiplier
+        * real_form_multiplier
+        * simulated_form_multiplier
+        * overall_multiplier
         * minutes_multiplier
     )
-
-    return weights
-
 
 def get_assist_weights(
     match_players,
 ):
-    """
-    Asist ağırlığı.
-    """
-
     position_base = (
         match_players["position"]
-        .map(ASSIST_POSITION_BASE)
+        .map(
+            ASSIST_POSITION_BASE
+        )
         .fillna(0.8)
         .astype(float)
     )
@@ -393,6 +742,17 @@ def get_assist_weights(
         )
     )
 
+    overall_multiplier = (
+        0.75
+        + (
+            match_players[
+                "overall"
+            ].astype(float)
+            - 65.0
+        )
+        / 50.0
+    )
+
     minutes_multiplier = (
         match_players[
             "match_minutes"
@@ -403,6 +763,7 @@ def get_assist_weights(
     return (
         position_base
         * performance_multiplier
+        * overall_multiplier
         * minutes_multiplier
     )
 
@@ -412,10 +773,6 @@ def choose_player(
     weights,
     rng,
 ):
-    """
-    Ağırlıklı rastgele oyuncu seç.
-    """
-
     weights = np.asarray(
         weights,
         dtype=float,
@@ -424,21 +781,26 @@ def choose_player(
     total = weights.sum()
 
     if total <= 0:
-        probabilities = np.ones(
-            len(weights)
-        ) / len(weights)
+
+        probabilities = (
+            np.ones(
+                len(weights)
+            )
+            / len(weights)
+        )
 
     else:
+
         probabilities = (
             weights / total
         )
 
-    chosen_index = rng.choice(
-        candidate_indices,
-        p=probabilities,
+    return int(
+        rng.choice(
+            candidate_indices,
+            p=probabilities,
+        )
     )
-
-    return chosen_index
 
 
 def assign_team_goals(
@@ -451,11 +813,6 @@ def assign_team_goals(
     events,
     minutes_by_player,
 ):
-    """
-    Takımın attığı golleri maçta gerçekten
-    dakika alan oyuncular arasında dağıtır.
-    """
-
     participant_indices = list(
         minutes_by_player.keys()
     )
@@ -467,8 +824,11 @@ def assign_team_goals(
     match_players[
         "match_minutes"
     ] = [
-        minutes_by_player[index]
-        for index in participant_indices
+        minutes_by_player[
+            index
+        ]
+        for index
+        in participant_indices
     ]
 
     for goal_number in range(
@@ -476,16 +836,20 @@ def assign_team_goals(
         goal_count + 1,
     ):
 
-        # -----------------------------
+        # -------------------------
         # GOLCÜ
-        # -----------------------------
+        # -------------------------
 
-        goal_weights = get_goal_weights(
-            match_players
+        goal_weights = (
+            get_goal_weights(
+                match_players
+            )
         )
 
         scorer_index = choose_player(
-            match_players.index.to_numpy(),
+            match_players
+            .index
+            .to_numpy(),
             goal_weights.to_numpy(),
             rng,
         )
@@ -510,16 +874,14 @@ def assign_team_goals(
             "season_goals",
         ] += 1
 
-        # Aynı maç içinde sonraki gol için
-        # güncel değeri de yansıt.
         match_players.at[
             scorer_index,
             "simulated_goals",
         ] += 1
 
-        # -----------------------------
+        # -------------------------
         # ASİST
-        # -----------------------------
+        # -------------------------
 
         assist_id = None
         assist_name = None
@@ -535,7 +897,8 @@ def assign_team_goals(
                         "player_id"
                     ]
                     != scorer_id
-                ].copy()
+                ]
+                .copy()
             )
 
             if not assist_candidates.empty:
@@ -596,24 +959,43 @@ def assign_team_goals(
         )
 
 
+# ==========================================================
+# OYUNCU SEZONU
+# ==========================================================
+
+
 def simulate_player_stats(
     simulated_matches,
     seed,
+    starting_ratings,
 ):
-    players = load_player_data().copy()
+    players = (
+        load_player_data()
+        .copy()
+    )
 
-    # Gerçek sezon istatistikleri.
+    players = add_player_overalls(
+        players,
+        starting_ratings,
+    )
+
     players["season_goals"] = (
-        players["real_goals"].copy()
+        players["real_goals"]
+        .copy()
     )
 
     players["season_assists"] = (
-        players["real_assists"].copy()
+        players["real_assists"]
+        .copy()
     )
 
-    # Kalan simüle maçlardan gelecek veriler.
-    players["simulated_goals"] = 0
-    players["simulated_assists"] = 0
+    players[
+        "simulated_goals"
+    ] = 0
+
+    players[
+        "simulated_assists"
+    ] = 0
 
     players[
         "simulated_appearances"
@@ -627,7 +1009,6 @@ def simulate_player_stats(
         "simulated_minutes"
     ] = 0
 
-    # Takım simülasyonundan ayrı random akışı.
     rng = np.random.default_rng(
         seed + 1
     )
@@ -641,8 +1022,13 @@ def simulate_player_stats(
 
     for _, match in matches.iterrows():
 
-        home_team = match["home_team"]
-        away_team = match["away_team"]
+        home_team = (
+            match["home_team"]
+        )
+
+        away_team = (
+            match["away_team"]
+        )
 
         home_goals = int(
             match["fthg"]
@@ -651,10 +1037,6 @@ def simulate_player_stats(
         away_goals = int(
             match["ftag"]
         )
-
-        # -----------------------------
-        # EV SAHİBİ KADROSU
-        # -----------------------------
 
         (
             home_minutes,
@@ -665,10 +1047,6 @@ def simulate_player_stats(
             rng,
         )
 
-        # -----------------------------
-        # DEPLASMAN KADROSU
-        # -----------------------------
-
         (
             away_minutes,
             away_starters,
@@ -678,13 +1056,11 @@ def simulate_player_stats(
             rng,
         )
 
-        # -----------------------------
-        # APPEARANCE / START / MINUTES
-        # -----------------------------
+        for (
+            player_index,
+            minutes,
+        ) in home_minutes.items():
 
-        for player_index, minutes in (
-            home_minutes.items()
-        ):
             players.at[
                 player_index,
                 "simulated_appearances",
@@ -695,9 +1071,11 @@ def simulate_player_stats(
                 "simulated_minutes",
             ] += minutes
 
-        for player_index, minutes in (
-            away_minutes.items()
-        ):
+        for (
+            player_index,
+            minutes,
+        ) in away_minutes.items():
+
             players.at[
                 player_index,
                 "simulated_appearances",
@@ -717,10 +1095,6 @@ def simulate_player_stats(
             away_starters,
             "simulated_starts",
         ] += 1
-
-        # -----------------------------
-        # GOLLER
-        # -----------------------------
 
         assign_team_goals(
             players=players,
@@ -748,7 +1122,15 @@ def simulate_player_stats(
         events
     )
 
-    return players, events
+    return (
+        players,
+        events,
+    )
+
+
+# ==========================================================
+# OUTPUT
+# ==========================================================
 
 
 def main():
@@ -760,29 +1142,38 @@ def main():
             sys.argv[1]
         )
 
-    # Takım sezonu.
-    season_result = simulate_season(
-        seed=seed
+    season_result = (
+        simulate_season(
+            seed=seed
+        )
     )
 
-    seed = season_result["seed"]
+    seed = (
+        season_result["seed"]
+    )
 
-    # Oyuncu sezonu.
     players, events = (
         simulate_player_stats(
-            season_result[
-                "simulated_matches"
-            ],
-            seed,
+            simulated_matches=(
+                season_result[
+                    "simulated_matches"
+                ]
+            ),
+            seed=seed,
+            starting_ratings=(
+                season_result[
+                    "starting_ratings"
+                ]
+            ),
         )
     )
 
     print()
-    print("=" * 70)
+    print("=" * 75)
     print(
         "2026/27 OYUNCU SİMÜLASYONU"
     )
-    print("=" * 70)
+    print("=" * 75)
 
     print()
     print(
@@ -790,9 +1181,46 @@ def main():
         seed,
     )
 
-    # =============================
+    # -----------------------------
+    # OVERALL TOP 25
+    # -----------------------------
+
+    print()
+    print("EN YÜKSEK OVERALL")
+    print("-----------------")
+
+    overall_table = (
+        players
+        .sort_values(
+            [
+                "overall",
+                "real_goals",
+            ],
+            ascending=False,
+        )
+    )
+
+    print(
+        overall_table[
+            [
+                "player_name",
+                "team",
+                "position",
+                "age",
+                "overall",
+                "real_goals",
+                "real_assists",
+            ]
+        ]
+        .head(25)
+        .to_string(
+            index=False
+        )
+    )
+
+    # -----------------------------
     # GOL KRALLIĞI
-    # =============================
+    # -----------------------------
 
     print()
     print("GOL KRALLIĞI")
@@ -811,10 +1239,9 @@ def main():
             [
                 "player_name",
                 "team",
-                "position",
+                "overall",
                 "season_goals",
                 "season_assists",
-                "simulated_goals",
                 "simulated_appearances",
                 "simulated_starts",
                 "simulated_minutes",
@@ -826,9 +1253,9 @@ def main():
         )
     )
 
-    # =============================
+    # -----------------------------
     # ASİST KRALLIĞI
-    # =============================
+    # -----------------------------
 
     print()
     print("ASİST KRALLIĞI")
@@ -847,10 +1274,9 @@ def main():
             [
                 "player_name",
                 "team",
-                "position",
+                "overall",
                 "season_assists",
                 "season_goals",
-                "simulated_assists",
                 "simulated_appearances",
                 "simulated_starts",
                 "simulated_minutes",
@@ -862,9 +1288,9 @@ def main():
         )
     )
 
-    # =============================
+    # -----------------------------
     # KONTROL
-    # =============================
+    # -----------------------------
 
     simulated_team_goals = int(
         (
@@ -921,11 +1347,6 @@ def main():
     )
 
     print(
-        "Simüle gol olayı sayısı:",
-        len(events),
-    )
-
-    print(
         "Beklenen toplam oyuncu dakikası:",
         expected_player_minutes,
     )
@@ -939,6 +1360,11 @@ def main():
         "Dakika dağılımı doğru:",
         expected_player_minutes
         == actual_player_minutes,
+    )
+
+    print(
+        "Gol olayı:",
+        len(events),
     )
 
 

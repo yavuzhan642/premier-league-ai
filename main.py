@@ -1,1 +1,0 @@
-print("Premier League AI başladı")

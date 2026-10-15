@@ -1,0 +1,613 @@
+rank,player_name,nationality,team,fc_position,overall,pace,shooting,passing,dribbling,defending,physical,player_url
+3,Erling Haaland,Norway,Manchester City,ST,91,87,92,71,80,47,89,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/erling-haaland/239085
+20,Bruno Fernandes,Portugal,Man Utd,CAM,89,67,85,92,85,68,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bruno-fernandes/212198
+23,Gabriel,Brazil,Arsenal,CB,89,64,44,64,66,91,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gabriel/232580
+27,Gianluigi Donnarumma,Italy,Manchester City,GK,89,90,83,72,90,46,88,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gianluigi-donnarumma/230621
+28,William Saliba,France,Arsenal,CB,88,77,41,68,73,90,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/william-saliba/243715
+34,David Raya,Spain,Arsenal,GK,88,87,86,88,88,58,86,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/david-raya/220901
+35,Declan Rice,England,Arsenal,CDM,88,72,75,86,81,85,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/declan-rice/234378
+43,Virgil van Dijk,Holland,Liverpool,CB,88,70,60,72,70,89,85,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/virgil-van-dijk/203376
+51,Alisson,Brazil,Liverpool,GK,87,85,87,82,86,50,86,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alisson/212831
+59,Rúben Dias,Portugal,Manchester City,CB,87,58,44,69,69,87,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ruben-dias/239818
+67,Bukayo Saka,England,Arsenal,RW,87,79,82,85,87,60,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bukayo-saka/246669
+83,Moisés Caicedo,Ecuador,Chelsea,CDM,86,69,68,77,81,84,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/moises-caicedo/256079
+84,Dominik Szoboszlai,Hungary,Liverpool,CAM,86,82,83,86,84,74,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dominik-szoboszlai/236772
+86,Bruno Guimarães,Brazil,Arsenal,CM,86,59,75,85,84,80,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bruno-guimaraes/247851
+88,Enzo Fernández,Argentina,Chelsea,CM,86,68,78,86,83,74,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/enzo-fernandez/247090
+93,Alexander Isak,Sweden,Liverpool,ST,86,81,87,72,82,39,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alexander-isak/233731
+96,Martin Ødegaard,Norway,Arsenal,CM,86,65,78,88,87,66,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/martin-degaard/222665
+97,Viktor Gyökeres,Sweden,Arsenal,ST,86,81,87,72,78,44,87,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/viktor-gyokeres/241651
+98,Rayan Cherki,France,Manchester City,RW,86,74,79,85,91,41,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rayan-cherki/251570
+100,Florian Wirtz,Germany,Liverpool,CAM,86,77,79,86,88,54,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/florian-wirtz/256630
+113,Sandro Tonali,Italy,Spurs,CDM,85,79,74,82,80,81,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sandro-tonali/241096
+114,Jordan Pickford,England,Everton,GK,85,84,80,89,87,57,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jordan-pickford/204935
+115,Ryan Gravenberch,Holland,Liverpool,CDM,85,79,76,81,83,80,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ryan-gravenberch/246104
+120,Joško Gvardiol,Croatia,Manchester City,CB,85,78,70,76,77,85,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/josko-gvardiol/251517
+124,Emiliano Martínez,Argentina,Aston Villa,GK,85,83,81,82,85,50,85,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/emiliano-martinez/202811
+136,Antoine Semenyo,Ghana,Manchester City,RW,85,82,85,79,84,46,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/antoine-semenyo/241236
+148,Youri Tielemans,Belgium,Man Utd,CM,85,53,79,85,80,76,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/youri-tielemans/216393
+150,Cole Palmer,England,Chelsea,CAM,85,75,83,85,85,50,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/cole-palmer/257534
+155,Granit Xhaka,Switzerland,Sunderland,CDM,85,45,75,85,74,78,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/granit-xhaka/199503
+159,Hugo Ekitiké,France,Liverpool,ST,85,86,83,72,84,33,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/hugo-ekitike/257289
+164,Marc Guéhi,England,Manchester City,CB,85,69,46,70,72,85,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marc-guehi/241159
+172,Reece James,England,Chelsea,RB,84,76,71,83,78,83,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/reece-james/238074
+175,Morgan Rogers,England,Chelsea,CAM,84,76,82,82,84,67,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/morgan-rogers/260247
+184,Elliot Anderson,England,Manchester City,CDM,84,68,71,83,82,81,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/elliot-anderson/254243
+186,Bryan Mbeumo,Cameroon,Man Utd,RM,84,89,83,78,86,49,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bryan-mbeumo/243014
+191,Alexis Mac Allister,Argentina,Liverpool,CM,84,61,81,83,82,77,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alexis-mac-allister/239837
+194,Zubimendi,Spain,Arsenal,CDM,84,65,71,82,80,80,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/zubimendi/248148
+197,Eberechi Eze,England,Arsenal,CAM,84,74,80,82,87,57,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/eberechi-eze/235794
+199,Jérémy Doku,Belgium,Manchester City,LW,84,91,75,78,88,40,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jeremy-doku/246420
+203,Matheus Cunha,Brazil,Man Utd,LM,84,77,86,79,84,44,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matheus-cunha/240243
+211,Ezri Konsa,England,Arsenal,CB,84,71,55,72,75,86,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ezri-konsa/227678
+212,Phil Foden,England,Manchester City,CAM,84,77,82,82,88,57,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/phil-foden/237692
+213,Jurriën Timber,Holland,Arsenal,RB,84,76,48,76,78,83,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jurrien-timber/251805
+214,Piero Hincapié,Ecuador,Arsenal,LB,84,83,48,71,72,84,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/piero-hincapie/256197
+217,Boubacar Kamara,France,Aston Villa,CDM,84,64,56,78,78,83,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/boubacar-kamara/236987
+239,John McGinn,Scotland,Aston Villa,RM,83,69,80,81,82,78,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/john-mc-ginn/210881
+244,Nico O'Reilly,England,Manchester City,LB,83,83,70,78,79,81,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nico-o-reilly/277427
+247,Matheus Nunes,Portugal,Manchester City,RB,83,87,70,80,79,78,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matheus-nunes/253124
+255,Pedro Porro,Spain,Spurs,RB,83,76,73,82,79,78,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/pedro-porro/243576
+260,Morgan Gibbs-White,England,Nott'm Forest,CAM,83,75,78,83,85,63,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/morgan-gibbs-white/236015
+271,Lewis Hall,England,Newcastle Utd,LB,83,78,64,81,82,80,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lewis-hall/266127
+276,Giorgi Mamardashvili,Georgia,Liverpool,GK,83,82,81,75,83,47,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/giorgi-mamardashvili/262621
+278,Mikel Merino,Spain,Arsenal,CM,83,51,79,80,79,81,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mikel-merino/225193
+289,Ollie Watkins,England,Aston Villa,ST,83,78,82,72,78,51,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ollie-watkins/221697
+304,João Pedro,Brazil,Chelsea,ST,83,77,83,74,84,38,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joao-pedro/252042
+345,Dean Henderson,England,Crystal Palace,GK,82,83,79,79,82,55,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dean-henderson/233306
+355,Daniel Muñoz,Colombia,Crystal Palace,RB,82,76,70,73,77,80,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/daniel-munoz/237646
+357,James Garner,England,Everton,CDM,82,64,71,82,77,80,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/james-garner/243657
+362,Senne Lammens,Belgium,Man Utd,GK,82,80,83,77,83,45,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/senne-lammens/254803
+363,Riccardo Calafiori,Italy,Arsenal,LB,82,71,68,76,77,80,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/riccardo-calafiori/257711
+380,Cody Gakpo,Holland,Liverpool,LM,82,77,83,80,81,47,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/cody-gakpo/242516
+393,Murillo,Brazil,Nott'm Forest,CB,82,79,55,67,71,82,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/murillo/278016
+396,Marcus Rashford,England,Man Utd,LW,82,92,83,78,81,33,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marcus-rashford/231677
+397,Benjamin Šeško,Slovenia,Man Utd,ST,82,85,82,67,78,46,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/benjamin-sesko/260592
+400,Jack Grealish,England,Manchester City,LM,82,69,76,82,86,53,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jack-grealish/206517
+401,Lisandro Martínez,Argentina,Man Utd,CB,82,66,59,76,75,82,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lisandro-martinez/239301
+402,Christos Tzolis,Greece,Arsenal,LW,82,82,80,79,83,38,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/christos-tzolis/256948
+403,Omar Marmoush,Egypt,Manchester City,LW,82,87,83,76,83,34,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/omar-marmoush/256675
+404,Iliman Ndiaye,Senegal,Everton,LM,82,86,77,74,86,44,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/iliman-ndiaye/261188
+410,Adam Wharton,England,Crystal Palace,CM,82,54,63,85,80,77,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/adam-wharton/259240
+411,Igor Thiago,Brazil,Brentford,ST,82,74,83,67,75,44,85,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/igor-thiago/275771
+415,James Maddison,England,Spurs,CM,82,65,81,86,84,57,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/james-maddison/220697
+419,Maxence Lacroix,France,Chelsea,CB,82,86,45,61,67,83,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/maxence-lacroix/244067
+421,Abdukodir Khusanov,Uzbekistan,Manchester City,CB,82,88,39,64,68,83,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/abdukodir-khusanov/277031
+432,Matthijs de Ligt,Holland,Man Utd,CB,82,60,59,66,67,82,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matthijs-de-ligt/235243
+437,Marcos Senesi,Argentina,Spurs,CB,82,58,43,73,71,83,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marcos-senesi/236506
+444,Harry Maguire,England,Man Utd,CB,82,35,57,69,65,83,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/harry-maguire/203263
+460,Mohammed Kudus,Ghana,Spurs,RM,81,88,76,74,86,60,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mohammed-kudus/245155
+466,Robin Roefs,Holland,Sunderland,GK,81,81,79,77,83,54,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/robin-roefs/263798
+468,Mamadou Sangaré,Mali,Brentford,CM,81,80,67,76,81,78,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mamadou-sangare/258601
+469,Bart Verbruggen,Holland,Brighton,GK,81,80,77,81,84,50,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bart-verbruggen/258498
+472,Amadou Onana,Belgium,Aston Villa,CDM,81,73,68,74,74,81,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/amadou-onana/257057
+476,Milos Kerkez,Hungary,Liverpool,LB,81,84,59,75,78,76,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/milos-kerkez/260908
+478,Alex Scott,England,AFC Bournemouth,CM,81,68,71,80,82,76,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alex-scott/261299
+483,Kiernan Dewsbury-Hall,England,Everton,CAM,81,68,77,82,81,70,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kiernan-dewsbury-hall/237386
+484,Kobbie Mainoo,England,Man Utd,CDM,81,66,70,77,83,78,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kobbie-mainoo/269136
+485,Dejan Kulusevski,Sweden,Spurs,CM,81,69,79,83,84,63,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dejan-kulusevski/247394
+486,Micky van de Ven,Holland,Spurs,CB,81,90,60,65,72,80,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/micky-van-de-ven/264453
+492,Matz Sels,Belgium,Nott'm Forest,GK,81,82,79,78,82,44,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matz-sels/199641
+493,Jeremie Frimpong,Holland,Liverpool,RB,81,94,62,74,82,72,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jeremie-frimpong/253149
+494,Nico González,Spain,Manchester City,CDM,81,65,70,79,77,78,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nico-gonzalez/255069
+508,Matty Cash,Poland,Aston Villa,RB,81,70,67,75,76,78,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matty-cash/227174
+509,Rayan Aït-Nouri,Algeria,Manchester City,LB,81,84,52,76,84,77,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rayan-ait-nouri/242641
+512,Xavi Simons,Holland,Spurs,CAM,81,75,76,79,84,61,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/xavi-simons/245367
+513,Kaoru Mitoma,Japan,Brighton,LM,81,83,76,76,86,57,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kaoru-mitoma/255565
+524,Pedro Neto,Portugal,Chelsea,RM,81,91,76,77,82,40,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/pedro-neto/238616
+525,Tino Livramento,England,Newcastle Utd,RB,81,82,51,73,79,78,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tino-livramento/262118
+526,Michael Kayode,Italy,Brentford,RB,81,81,49,72,76,78,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/michael-kayode/277869
+535,Mateo Kovačić,Croatia,Manchester City,CM,81,57,74,80,81,73,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mateo-kovacic/207410
+537,Ismaïla Sarr,Senegal,Crystal Palace,RW,81,87,80,76,80,40,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ismaila-sarr/235353
+547,Harry Wilson,Wales,Leeds United,RW,81,76,82,81,82,46,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/harry-wilson/220710
+548,Nordi Mukiele,France,Sunderland,RB,81,71,50,71,73,81,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nordi-mukiele/226166
+550,Fabian Schär,Switzerland,Newcastle Utd,CB,81,49,68,76,73,83,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/fabian-schar/210047
+551,Benjamin White,England,Arsenal,RB,81,68,49,75,75,81,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/benjamin-white/231936
+552,Kai Havertz,Germany,Arsenal,ST,81,69,79,77,80,48,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kai-havertz/235790
+553,Jean-Philippe Mateta,France,Crystal Palace,ST,81,75,82,69,76,42,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jean-philippe-mateta/236461
+565,Malick Thiaw,Germany,Newcastle Utd,CB,81,70,47,70,71,82,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/malick-thiaw/256261
+576,Omar Alderete,Paraguay,Sunderland,CB,81,58,61,63,70,81,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/omar-alderete/240359
+581,Pau Torres,Spain,Aston Villa,CB,81,66,41,75,69,83,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/pau-torres/241464
+582,Jan Paul van Hecke,Holland,Spurs,CB,81,54,47,75,70,82,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jan-paul-van-hecke/258908
+583,Luka Vušković,Croatia,Brighton,CB,81,54,62,62,65,83,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/luka-vuskovic/275192
+590,Ousmane Diomande,Côte d'Ivoire,Nott'm Forest,CB,81,80,26,52,70,80,88,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ousmane-diomande/270531
+593,Chris Wood,New Zealand,Nott'm Forest,ST,81,53,82,67,71,40,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/chris-wood/192123
+598,Sven Botman,Holland,Newcastle Utd,CB,81,56,37,62,65,82,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sven-botman/251809
+603,Joelinton,Brazil,Newcastle Utd,CM,80,68,72,76,79,82,90,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joelinton/223334
+619,Mingueza,Spain,Crystal Palace,RB,80,78,69,79,77,76,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mingueza/259694
+620,Carlos Baleba,Cameroon,Brighton,CDM,80,74,70,76,79,78,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/carlos-baleba/272500
+624,Anton Stach,Germany,Leeds United,CM,80,67,72,81,76,78,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/anton-stach/257191
+627,Gerónimo Rulli,Argentina,Manchester City,GK,80,81,77,80,85,54,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/geronimo-rulli/215316
+628,Andrey Santos,Brazil,Man Utd,CM,80,69,70,76,79,80,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/andrey-santos/273018
+632,Noah Sadiki,Congo DR,Sunderland,CDM,80,79,67,75,80,75,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/noah-sadiki/269230
+638,Robert Sánchez,Spain,Chelsea,GK,80,81,78,78,81,53,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/robert-sanchez/228789
+644,Caoimhín Kelleher,Republic of Ireland,Brentford,GK,80,80,77,79,82,51,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/caoimhin-kelleher/240913
+647,Antonee Robinson,United States,Fulham,LB,80,88,57,74,76,76,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/antonee-robinson/229348
+648,Mateus Fernandes,Portugal,Spurs,CM,80,67,73,79,80,75,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mateus-fernandes/270857
+652,Ferdi Kadıoğlu,Turkey,Brighton,LB,80,79,68,76,80,76,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ferdi-kad-oglu/235152
+662,Johan Manzambi,Switzerland,Aston Villa,CM,80,71,74,73,83,70,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/johan-manzambi/276694
+668,Alex Iwobi,Nigeria,Fulham,LM,80,68,77,79,82,63,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alex-iwobi/213655
+669,Noussair Mazraoui,Morocco,Man Utd,RB,80,74,64,76,78,78,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/noussair-mazraoui/236401
+679,Andrew Robertson,Scotland,Spurs,LB,80,72,62,78,76,77,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/andrew-robertson/216267
+684,Mathias Jensen,Denmark,Brentford,CM,80,63,72,82,78,70,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mathias-jensen/229723
+685,Adrien Truffert,France,AFC Bournemouth,LB,80,83,57,73,75,76,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/adrien-truffert/256769
+687,Federico Chiesa,Italy,Liverpool,RM,80,87,79,75,83,44,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/federico-chiesa/235805
+688,Yankuba Minteh,Gambia,Brighton,RM,80,93,72,73,84,57,57,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/yankuba-minteh/271800
+690,Gabriel Martinelli,Brazil,Arsenal,LW,80,88,76,74,82,46,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gabriel-martinelli/251566
+695,Emiliano Buendía,Argentina,Aston Villa,LM,80,65,78,81,84,66,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/emiliano-buendia/226162
+696,Reinildo,Mozambique,Sunderland,LB,80,78,57,69,74,79,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/reinildo/236045
+697,Noni Madueke,England,Arsenal,RW,80,88,75,74,83,45,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/noni-madueke/254796
+702,Mikkel Damsgaard,Denmark,Brentford,CAM,80,66,73,82,81,66,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mikkel-damsgaard/241508
+707,Enzo Le Fée,France,Sunderland,CAM,80,64,72,81,82,69,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/enzo-le-fee/246350
+712,Eli Junior Kroupi,France,AFC Bournemouth,ST,80,83,83,71,81,48,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/eli-junior-kroupi/277909
+720,Harvey Barnes,England,Newcastle Utd,LW,80,82,81,75,81,43,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/harvey-barnes/234742
+721,Ethan Ampadu,Wales,Leeds United,CDM,80,68,55,75,73,78,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ethan-ampadu/235735
+740,Neco Williams,Wales,Nott'm Forest,LB,80,71,50,73,75,79,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/neco-williams/243057
+747,Nick Woltemade,Germany,Newcastle Utd,ST,80,67,80,72,81,41,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nick-woltemade/254022
+760,Ronald Araujo,Uruguay,Liverpool,CB,80,79,54,64,59,78,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ronald-araujo/253163
+763,Estêvão,Brazil,Chelsea,RM,80,89,76,75,84,33,57,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/estevao/76687
+767,Levi Colwill,England,Chelsea,CB,80,68,43,71,71,81,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/levi-colwill/262859
+768,Yoane Wissa,Congo DR,Newcastle Utd,ST,80,80,81,70,78,31,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/yoane-wissa/234824
+772,Danny Welbeck,England,Chelsea,ST,80,54,82,73,77,45,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/danny-welbeck/186146
+777,Savinho,Brazil,Manchester City,RW,80,87,72,76,84,34,52,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/savinho/270409
+787,Nikola Milenković,Serbia,Nott'm Forest,CB,80,53,46,62,60,81,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nikola-milenkovic/238095
+789,Chris Richards,United States,Crystal Palace,CB,80,65,27,60,66,81,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/chris-richards/250954
+790,James Tarkowski,England,Everton,CB,80,41,47,64,59,81,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/james-tarkowski/202695
+799,Pep Chavarría,Spain,Chelsea,LB,79,86,70,74,75,74,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/pep-chavarria/258371
+803,Destiny Udogie,Italy,Spurs,LB,79,88,64,73,77,75,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/destiny-udogie/259583
+815,Ola Aina,Nigeria,Nott'm Forest,RB,79,87,62,71,74,77,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ola-aina/224656
+817,Konstantinos Tzolakis,Greece,Hull City,GK,79,78,76,76,83,54,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/konstantinos-tzolakis/252552
+822,Ian Maatsen,Holland,Aston Villa,LB,79,87,65,75,81,73,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ian-maatsen/248465
+831,Marcus Tavernier,England,AFC Bournemouth,LM,79,80,78,77,79,60,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marcus-tavernier/237477
+832,Tyler Adams,United States,AFC Bournemouth,CDM,79,77,60,73,76,79,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyler-adams/232999
+833,Yasin Ayari,Sweden,Brighton,CDM,79,69,76,77,80,74,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/yasin-ayari/257400
+834,Pape Matar Sarr,Senegal,Spurs,CM,79,66,66,77,79,78,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/pape-matar-sarr/259868
+835,James Trafford,England,Leeds United,GK,79,79,77,78,80,48,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/james-trafford/263063
+840,Mats Wieffer,Holland,Brighton,RB,79,67,67,76,75,78,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mats-wieffer/248793
+841,Malo Gusto,France,Chelsea,RB,79,82,55,75,79,75,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/malo-gusto/259307
+843,Bernd Leno,Germany,Fulham,GK,79,78,79,75,79,47,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bernd-leno/192563
+844,Đorđe Petrović,Serbia,AFC Bournemouth,GK,79,80,78,73,81,49,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/or-e-petrovic/269626
+853,Luke Shaw,England,Man Utd,LB,79,66,58,78,75,79,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/luke-shaw/205988
+854,Jacob Murphy,England,Newcastle Utd,RW,79,76,77,78,79,60,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jacob-murphy/206085
+855,Conor Bradley,Northern Ireland,Liverpool,RB,79,79,62,71,75,76,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/conor-bradley/264298
+857,Daichi Kamada,Japan,Crystal Palace,CM,79,68,75,79,80,67,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/daichi-kamada/232730
+865,Víctor Muñoz,Spain,Liverpool,LM,79,94,74,70,80,50,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/victor-munoz/76042
+870,Dango Ouattara,Burkina Faso,Brentford,RM,79,85,74,73,80,54,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dango-ouattara/265552
+879,Rodrigo Bentancur,Uruguay,Spurs,CDM,79,59,68,77,76,78,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rodrigo-bentancur/227535
+895,Rayan,Brazil,AFC Bournemouth,RM,79,85,78,74,80,35,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rayan/83494
+896,Valentín Barco,Argentina,Chelsea,CM,79,77,52,81,80,73,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/valentin-barco/263370
+901,Justin Kluivert,Holland,AFC Bournemouth,CAM,79,86,78,77,81,42,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/justin-kluivert/236920
+904,Sander Berge,Norway,Fulham,CDM,79,55,64,75,70,75,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sander-berge/228092
+907,Gabriel Jesus,Brazil,Arsenal,ST,79,78,79,74,84,39,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gabriel-jesus/230666
+908,Tyrick Mitchell,England,Crystal Palace,LB,79,75,54,69,74,77,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyrick-mitchell/240947
+909,Amad,Côte d'Ivoire,Man Utd,RM,79,83,75,74,83,54,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/amad/254088
+910,Anthony Elanga,Sweden,Newcastle Utd,RW,79,94,70,74,80,39,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/anthony-elanga/257470
+917,Kevin Schade,Germany,Brentford,LM,79,92,75,71,78,30,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kevin-schade/260926
+921,Nicolas Jackson,Senegal,Chelsea,ST,79,76,77,69,79,40,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nicolas-jackson/259197
+930,Pascal Groß,Germany,Brighton,CDM,79,37,74,84,78,71,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/pascal-gro/190765
+941,Evanilson,Brazil,AFC Bournemouth,ST,79,75,78,69,77,37,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/evanilson/256612
+944,Dominic Calvert-Lewin,England,Leeds United,ST,79,73,77,65,73,39,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dominic-calvert-lewin/221479
+947,Bafodé Diakité,France,AFC Bournemouth,CB,79,69,46,66,70,80,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bafode-diakite/246565
+951,Christian Nørgaard,Denmark,Everton,CDM,79,44,65,75,71,77,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/christian-n-rgaard/210697
+952,Dominic Solanke,England,Spurs,ST,79,70,79,66,76,42,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dominic-solanke/225539
+953,Wesley Fofana,France,Chelsea,CB,79,77,41,62,71,80,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/wesley-fofana/248695
+963,Yeremy Pino,Spain,Crystal Palace,LW,79,75,74,80,81,38,51,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/yeremy-pino/259377
+968,Joachim Andersen,Denmark,Fulham,CB,79,39,57,71,65,80,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joachim-andersen/224221
+972,Joe Gomez,England,Liverpool,CB,79,70,29,70,71,80,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joe-gomez/225100
+977,Jarrad Branthwaite,England,Everton,CB,79,71,40,62,59,80,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jarrad-branthwaite/247649
+982,Kevin Danso,Austria,Spurs,CB,79,69,32,57,62,78,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kevin-danso/237985
+986,Dan Burn,England,Newcastle Utd,CB,79,42,36,66,63,79,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dan-burn/198032
+988,Nathan Collins,Republic of Ireland,Brentford,CB,79,54,31,58,64,80,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nathan-collins/248484
+994,Daizen Maeda,Japan,Ipswich,LM,78,92,77,70,76,64,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/daizen-maeda/246321
+995,Marco Palestra,Italy,Chelsea,RB,78,90,65,69,80,70,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marco-palestra/278339
+997,Patrick Dorgu,Denmark,Man Utd,LM,78,86,73,72,77,72,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/patrick-dorgu/277432
+1002,Conor Gallagher,England,Spurs,CM,78,68,73,77,76,78,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/conor-gallagher/238216
+1003,Maxim De Cuyper,Belgium,Brighton,LB,78,76,73,80,77,73,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/maxim-de-cuyper/251479
+1005,Jacob Ramsey,England,Newcastle Utd,CM,78,78,75,76,81,69,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jacob-ramsey/246923
+1010,Gabriel Gudmundsson,Sweden,Leeds United,LB,78,87,64,73,77,72,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gabriel-gudmundsson/236822
+1011,Diego Gómez,Paraguay,Brighton,CM,78,70,76,76,77,73,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/diego-gomez/269278
+1021,Anan Khalaili,Israel,Crystal Palace,RM,78,84,72,71,80,66,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/anan-khalaili/70888
+1029,Saša Lukić,Serbia,Ipswich,CDM,78,75,65,76,73,75,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sasa-lukic/236699
+1034,Hidemasa Morita,Japan,Hull City,CM,78,68,71,75,78,72,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/hidemasa-morita/242087
+1039,Diogo Dalot,Portugal,Man Utd,RB,78,78,63,73,74,74,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/diogo-dalot/234574
+1040,Lucas Bergvall,Sweden,Spurs,CM,78,74,68,77,78,72,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lucas-bergvall/272926
+1048,Kepa,Spain,Arsenal,GK,78,77,77,82,80,47,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kepa/206585
+1058,Thomas Meunier,Belgium,Sunderland,RB,78,59,74,73,71,78,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/thomas-meunier/202371
+1059,Ryan Christie,Scotland,AFC Bournemouth,CDM,78,66,71,76,77,73,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ryan-christie/213884
+1065,Myles Lewis-Skelly,England,Arsenal,LB,78,71,60,75,77,76,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/myles-lewis-skelly/278773
+1070,Xaver Schlager,Austria,Nott'm Forest,CDM,78,66,69,72,76,74,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/xaver-schlager/233195
+1082,Nicolás Domínguez,Argentina,Nott'm Forest,CDM,78,67,65,75,76,76,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nicolas-dominguez/237819
+1086,Matteo Ruggeri,Italy,Aston Villa,LB,78,78,61,74,71,73,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matteo-ruggeri/259584
+1099,Lewis Cook,England,AFC Bournemouth,CDM,78,68,63,76,77,75,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lewis-cook/224294
+1100,Yehor Yarmoliuk,Ukraine,Brentford,CDM,78,66,65,75,76,74,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/yehor-yarmoliuk/270608
+1106,Richarlison,Brazil,Spurs,ST,78,71,78,72,78,53,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/richarlison/231943
+1107,Ibrahim Sangaré,Côte d'Ivoire,Nott'm Forest,CDM,78,58,66,73,72,77,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ibrahim-sangare/235173
+1136,Jordan Henderson,England,Chelsea,CDM,78,53,71,80,74,75,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jordan-henderson/183711
+1137,Walter Benítez,Argentina,Crystal Palace,GK,78,78,77,72,79,40,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/walter-benitez/215223
+1138,Mason Mount,England,Man Utd,CAM,78,66,76,80,79,62,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mason-mount/233064
+1143,Mike Penders,Belgium,Chelsea,GK,78,80,77,80,78,33,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mike-penders/270821
+1148,Vitaly Janelt,Germany,Brentford,CDM,78,53,70,74,73,76,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/vitaly-janelt/235167
+1159,Fábio Vieira,Portugal,Arsenal,CAM,78,75,74,79,79,57,57,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/fabio-vieira/256958
+1160,Jorrel Hato,Holland,Chelsea,LB,78,85,42,70,74,76,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jorrel-hato/272978
+1161,João Gomes,Brazil,Aston Villa,CDM,78,54,66,74,75,76,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joao-gomes/273463
+1167,Aaron Wan-Bissaka,Congo DR,Aston Villa,RB,78,79,51,68,73,76,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/aaron-wan-bissaka/229880
+1168,Callum Hudson-Odoi,England,Nott'm Forest,LM,78,77,75,75,80,50,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/callum-hudson-odoi/240740
+1175,Nick Pope,England,Newcastle Utd,GK,78,78,77,64,80,44,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nick-pope/203841
+1176,Roméo Lavia,Belgium,Chelsea,CDM,78,66,52,74,78,77,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/romeo-lavia/263620
+1185,Wataru Endo,Japan,Liverpool,CDM,78,56,68,71,74,78,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/wataru-endo/232487
+1195,Kenny Tete,Holland,Fulham,RB,78,73,48,69,73,78,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kenny-tete/216266
+1196,Trai Hume,Northern Ireland,Sunderland,RB,78,75,52,67,70,76,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/trai-hume/266400
+1207,Olivier Boscagli,France,Brighton,CB,78,60,53,75,75,78,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/olivier-boscagli/225863
+1208,Calvin Bassey,Nigeria,Fulham,CB,78,77,44,63,68,77,85,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/calvin-bassey/241436
+1217,Evann Guessand,Côte d'Ivoire,Crystal Palace,RW,78,78,76,73,78,36,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/evann-guessand/258444
+1220,Brennan Johnson,Wales,Everton,RW,78,85,76,73,77,43,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/brennan-johnson/251421
+1231,Cristhian Mosquera,Spain,Arsenal,CB,78,74,48,65,66,79,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/cristhian-mosquera/264846
+1237,Arnaud Kalimuendo,France,Nott'm Forest,ST,78,79,79,65,79,34,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/arnaud-kalimuendo/253444
+1238,Mathys Tel,France,Spurs,LM,78,86,80,70,79,29,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mathys-tel/268421
+1243,Brian Brobbey,Holland,Sunderland,ST,78,83,75,61,73,30,85,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/brian-brobbey/251810
+1255,Emanuel Emegha,Holland,Chelsea,ST,78,88,76,60,69,31,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/emanuel-emegha/258437
+1266,Sepp van den Berg,Holland,Brentford,CB,78,72,38,64,67,79,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sepp-van-den-berg/242453
+1270,Bazoumana Touré,Côte d'Ivoire,Newcastle Utd,LW,78,91,70,71,82,29,52,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bazoumana-toure/71418
+1274,James Hill,England,AFC Bournemouth,CB,78,71,40,62,67,78,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/james-hill/248492
+1275,Julio César Enciso,Paraguay,Ipswich,CAM,78,78,74,72,83,33,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/julio-cesar-enciso/255434
+1277,Nico Elvedi,Switzerland,Leeds United,CB,78,70,39,62,64,79,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nico-elvedi/221491
+1278,Wilson Odobert,France,Spurs,LM,78,86,73,72,80,30,51,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/wilson-odobert/270579
+1286,Leny Yoro,France,Man Utd,CB,78,69,41,60,65,79,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/leny-yoro/269087
+1294,Daniel Ballard,Northern Ireland,Sunderland,CB,78,60,43,58,60,78,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/daniel-ballard/243908
+1362,Georginio Rutter,France,Brighton,CAM,77,75,75,75,79,61,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/georginio-rutter/245637
+1363,Dan Ndoye,Switzerland,Nott'm Forest,LM,77,88,72,70,79,62,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dan-ndoye/257980
+1365,Ryan Sessegnon,England,Fulham,LB,77,78,68,74,78,73,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ryan-sessegnon/235883
+1366,Keane Lewis-Potter,England,Brentford,LB,77,77,70,74,78,72,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/keane-lewis-potter/243606
+1367,Jack Hinshelwood,England,Brighton,CDM,77,66,71,76,76,74,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jack-hinshelwood/277283
+1370,Habib Diarra,Senegal,Sunderland,CM,77,70,70,75,77,71,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/habib-diarra/264293
+1381,Martin Dúbravka,Slovakia,Spurs,GK,77,77,76,76,77,49,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/martin-dubravka/220407
+1393,Hayden Hackney,England,Everton,CM,77,67,68,74,77,70,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/hayden-hackney/253054
+1394,Lewis Miley,England,Newcastle Utd,CM,77,68,66,76,75,76,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lewis-miley/274246
+1401,Matt O'Riley,Denmark,Brighton,CAM,77,61,77,79,76,67,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matt-o-riley/240734
+1409,Antonín Kinský,Czech Republic,Spurs,GK,77,77,76,76,78,45,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/antonin-kinsky/73580
+1437,Archie Gray,England,Spurs,CDM,77,68,61,73,75,75,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/archie-gray/270208
+1459,Marco Bizot,Holland,Aston Villa,GK,77,77,74,71,77,44,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marco-bizot/200110
+1460,Amine Adli,Morocco,AFC Bournemouth,LM,77,78,75,72,81,46,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/amine-adli/255223
+1476,Manuel Ugarte,Uruguay,Man Utd,CDM,77,59,64,71,73,76,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/manuel-ugarte/253306
+1483,Chemsdine Talbi,Morocco,Sunderland,RM,77,88,72,71,80,51,55,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/chemsdine-talbi/275048
+1491,Ross Barkley,England,Aston Villa,CM,77,53,77,78,77,65,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ross-barkley/199189
+1492,Vitaliy Mykolenko,Ukraine,Everton,LB,77,73,55,70,71,75,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/vitaliy-mykolenko/244380
+1498,Rico Lewis,England,Manchester City,RB,77,75,55,74,79,74,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rico-lewis/271574
+1513,Joshua Zirkzee,Holland,Man Utd,ST,77,67,76,73,80,42,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joshua-zirkzee/250961
+1519,Noah Okafor,Switzerland,Leeds United,LW,77,88,76,70,78,32,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/noah-okafor/242530
+1524,Kristoffer Ajer,Norway,Brentford,CB,77,67,56,65,68,76,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kristoffer-ajer/224258
+1533,Leon Bailey,Jamaica,Aston Villa,RM,77,86,73,73,82,38,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/leon-bailey/229906
+1539,Emile Smith Rowe,England,Fulham,CAM,77,67,73,76,80,53,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/emile-smith-rowe/240273
+1547,Lukáš Horníček,Czech Republic,Newcastle Utd,GK,77,76,76,74,78,28,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lukas-hornicek/258936
+1555,Jaka Bijol,Slovenia,Leeds United,CB,77,63,59,64,62,78,81,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jaka-bijol/244238
+1566,Alejandro Garnacho,Argentina,Aston Villa,LM,77,86,77,72,79,37,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alejandro-garnacho/268438
+1567,António Silva,Portugal,AFC Bournemouth,CB,77,77,37,64,69,77,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/antonio-silva/270086
+1591,Liam Delap,England,Chelsea,ST,77,76,77,60,75,30,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/liam-delap/259031
+1595,Jørgen Strand Larsen,Norway,Crystal Palace,ST,77,73,79,62,70,32,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/j-rgen-strand-larsen/238756
+1602,Igor Jesus,Brazil,Nott'm Forest,ST,77,68,77,65,72,36,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/igor-jesus/79402
+1603,Tosin Adarabioyo,England,Chelsea,CB,77,67,46,63,63,77,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tosin-adarabioyo/222104
+1604,Harvey Elliott,England,Liverpool,CAM,77,72,71,76,81,50,44,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/harvey-elliott/246174
+1605,Jamie Gittens,England,Chelsea,LM,77,92,72,66,82,27,55,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jamie-gittens/266032
+1611,Tammy Abraham,England,Aston Villa,ST,77,72,76,65,72,36,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tammy-abraham/231352
+1612,Florentino,Portugal,Ipswich,CDM,77,48,53,68,72,78,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/florentino/234569
+1621,Will Hughes,England,Crystal Palace,CDM,77,36,62,76,75,73,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/will-hughes/206516
+1622,Joe Rodon,Wales,Leeds United,CB,77,76,40,58,59,77,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joe-rodon/229266
+1623,Victor Lindelöf,Sweden,Aston Villa,CB,77,50,51,71,68,77,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/victor-lindelof/221660
+1624,Beto,Guinea-Bissau,Everton,ST,77,74,77,60,69,25,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/beto/251892
+1637,Tyrone Mings,England,Aston Villa,CB,77,57,44,67,61,76,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyrone-mings/212419
+1642,Jérémy Jacquet,France,Liverpool,CB,77,64,38,61,62,77,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jeremy-jacquet/278903
+1650,Lewis Dunk,England,Brighton,CB,77,36,52,66,64,78,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lewis-dunk/199915
+1652,Mamadou Sarr,Senegal,Chelsea,CB,77,68,38,58,57,78,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mamadou-sarr/275507
+1655,Axel Disasi,France,Chelsea,CB,77,52,48,60,58,77,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/axel-disasi/229942
+1673,Amar Dedić,Bosnia and Herzegovina,Newcastle Utd,RB,76,83,62,72,80,68,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/amar-dedic/257345
+1685,Juanlu Sánchez,Spain,AFC Bournemouth,RB,76,80,68,73,75,71,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/juanlu-sanchez/264174
+1688,Joe Willock,England,Newcastle Utd,CM,76,75,72,74,78,72,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joe-willock/237329
+1710,Zion Suzuki,Japan,Aston Villa,GK,76,76,75,76,76,56,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/zion-suzuki/255981
+1711,Carl Rushworth,England,Coventry City,GK,76,76,75,75,77,55,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/carl-rushworth/263339
+1731,Jefferson Lerma,Colombia,Crystal Palace,CDM,76,66,70,69,73,76,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jefferson-lerma/213991
+1740,Ao Tanaka,Japan,Leeds United,CM,76,67,70,74,77,72,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ao-tanaka/236764
+1752,Kostas Tsimikas,Greece,Liverpool,LB,76,78,56,73,73,74,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kostas-tsimikas/232223
+1783,Brenden Aaronson,United States,Leeds United,RW,76,78,71,74,77,60,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/brenden-aaronson/247361
+1790,Jayden Bogle,England,Leeds United,RB,76,77,56,70,75,71,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jayden-bogle/244591
+1811,Karl Darlow,Wales,Man Utd,GK,76,76,74,70,77,47,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/karl-darlow/193331
+1828,Dwight McNeil,England,Crystal Palace,RM,76,67,76,77,77,55,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dwight-mc-neil/243282
+1835,Lucas Perri,Brazil,Leeds United,GK,76,76,77,70,77,41,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lucas-perri/230670
+1836,Kjell Scherpen,Holland,Ipswich,GK,76,78,72,71,78,42,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kjell-scherpen/243675
+1837,Omari Hutchinson,England,Nott'm Forest,RM,76,79,73,72,79,55,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/omari-hutchinson/260145
+1843,James Justin,England,Leeds United,RB,76,75,53,70,72,73,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/james-justin/231554
+1844,Largie Ramazani,Belgium,Leeds United,LW,76,91,70,69,79,41,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/largie-ramazani/243134
+1853,Jaden Philogene,England,Ipswich,LM,76,84,73,71,79,41,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jaden-philogene/261336
+1861,Sean Longstaff,England,Leeds United,CM,76,55,69,77,73,72,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sean-longstaff/237161
+1869,Tim Iroegbunam,England,Everton,CDM,76,65,58,68,74,75,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tim-iroegbunam/266609
+1883,Matt Grimes,England,Coventry City,CDM,76,56,61,77,75,70,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matt-grimes/212118
+1884,Jake O'Brien,Republic of Ireland,Everton,RB,76,75,50,67,62,76,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jake-o-brien/253510
+1885,Geovany Quenda,Portugal,Chelsea,RM,76,86,64,72,79,41,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/geovany-quenda/279044
+1915,Lukas Nmecha,Germany,Leeds United,ST,76,77,76,66,73,40,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lukas-nmecha/230084
+1938,David Brooks,Wales,AFC Bournemouth,RM,76,70,71,77,78,49,57,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/david-brooks/220196
+1939,Rico Henry,Jamaica,Brentford,LB,76,80,45,66,75,74,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rico-henry/224494
+1940,Jaidon Anthony,England,Brentford,LM,76,78,72,70,76,39,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jaidon-anthony/243669
+1941,Dilane Bakwa,France,Nott'm Forest,RM,76,87,72,72,77,30,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dilane-bakwa/250789
+1956,Cheick Doucouré,Mali,Crystal Palace,CDM,76,54,55,72,74,74,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/cheick-doucoure/242619
+1977,Kevin,Brazil,Fulham,LM,76,82,70,70,82,33,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kevin/70571
+1978,Rodrigo Muniz,Brazil,Fulham,ST,76,67,77,60,73,42,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rodrigo-muniz/264337
+1993,Takehiro Tomiyasu,Japan,Crystal Palace,LB,76,67,33,67,71,78,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/takehiro-tomiyasu/232938
+1999,Promise David,Canada,Brighton,ST,76,71,79,60,67,29,85,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/promise-david/73070
+2000,Simon Adingra,Côte d'Ivoire,Sunderland,LM,76,87,70,70,80,30,54,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/simon-adingra/260779
+2001,Thierno Barry,France,Everton,ST,76,80,75,65,73,25,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/thierno-barry/276295
+2010,Jaydee Canvot,France,Crystal Palace,CB,76,75,32,62,68,76,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jaydee-canvot/74133
+2017,Callum Wilson,England,Brentford,ST,76,65,78,66,75,42,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/callum-wilson/196978
+2027,Pascal Struijk,Holland,Brighton,CB,76,60,46,61,64,76,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/pascal-struijk/239360
+2030,Vitor Reis,Brazil,Manchester City,CB,76,73,33,60,68,76,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/vitor-reis/76624
+2042,Oscar Bobb,Norway,Fulham,RM,76,81,66,73,81,35,43,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/oscar-bobb/277295
+2051,Michael Keane,England,Everton,CB,76,42,58,62,59,77,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/michael-keane/207599
+2062,Jorge Cuenca,Spain,Fulham,CB,76,60,37,60,60,77,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jorge-cuenca/237522
+2092,Gustavo Hamer,Holland,Coventry City,LM,75,70,73,78,75,72,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gustavo-hamer/234741
+2107,Costinha,Portugal,Brighton,RB,75,78,65,72,74,70,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/costinha/251942
+2108,Frank Onyeka,Nigeria,Coventry City,CDM,75,75,66,68,74,73,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/frank-onyeka/239529
+2125,Jack Rudoni,England,Coventry City,CAM,75,71,71,74,77,64,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jack-rudoni/251690
+2134,Milan van Ewijk,Holland,Coventry City,RB,75,92,58,67,73,68,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/milan-van-ewijk/251626
+2150,Dário Essugo,Portugal,Chelsea,CDM,75,72,61,69,74,74,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dario-essugo/261530
+2166,Dayann Methalie,France,Sunderland,LB,75,89,50,65,71,71,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dayann-methalie/74491
+2167,Leif Davis,England,Ipswich,LB,75,79,54,76,73,70,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/leif-davis/246685
+2180,Jack Butland,England,Hull City,GK,75,76,74,72,76,49,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jack-butland/203042
+2181,Abdul Fatawu,Ghana,Ipswich,RM,75,84,74,72,78,47,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/abdul-fatawu/267680
+2234,Ephron Mason-Clark,Jamaica,Coventry City,LM,75,86,71,69,76,36,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ephron-mason-clark/236784
+2254,Daniel James,Wales,Leeds United,RW,75,89,71,69,76,50,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/daniel-james/232104
+2289,Josh Acheampong,England,Chelsea,CB,75,75,50,67,69,75,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/josh-acheampong/71651
+2290,Álvaro Rodríguez,Uruguay,AFC Bournemouth,ST,75,82,72,64,76,38,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alvaro-rodriguez/272445
+2298,Timothy Castagne,Belgium,Fulham,RB,75,66,56,70,72,73,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/timothy-castagne/222501
+2299,Ilia Gruev,Bulgaria,Leeds United,CDM,75,64,57,74,72,72,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ilia-gruev/248384
+2313,Mykhailo Mudryk,Ukraine,Chelsea,LM,75,92,71,71,78,38,57,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mykhailo-mudryk/246340
+2314,Aaron Hickey,Scotland,Brentford,RB,75,69,56,70,74,74,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/aaron-hickey/248808
+2330,Ethan Nwaneri,England,Arsenal,RW,75,81,69,74,77,50,54,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ethan-nwaneri/271807
+2340,Nicolò Savona,Italy,Nott'm Forest,RB,75,68,53,69,69,74,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nicolo-savona/74310
+2341,Jack Clarke,England,Ipswich,LM,75,78,73,70,78,42,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jack-clarke/242908
+2353,Carlos Alcaraz,Argentina,Everton,CAM,75,71,71,73,78,46,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/carlos-alcaraz/256402
+2354,Gonzalo,Spain,Fulham,ST,75,72,76,64,71,46,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gonzalo/278399
+2362,Nobel Mendy,Senegal,Hull City,CB,75,80,46,58,62,73,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nobel-mendy/276633
+2385,Azor Matusiwa,Holland,Ipswich,CDM,75,57,53,67,69,73,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/azor-matusiwa/239356
+2401,Rio Ngumoha,England,Liverpool,LM,75,90,71,68,79,37,49,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rio-ngumoha/80376
+2408,William Osula,Denmark,Newcastle Utd,ST,75,88,73,60,76,25,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/william-osula/270519
+2416,Oli McBurnie,Scotland,Hull City,ST,75,59,76,66,71,36,84,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/oli-mc-burnie/220031
+2417,Ryan Yates,England,Nott'm Forest,CDM,75,47,61,67,67,75,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ryan-yates/235642
+2436,Wilson Isidor,Haiti,Sunderland,ST,75,76,74,62,72,32,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/wilson-isidor/247335
+2461,Eddie Nketiah,England,Crystal Palace,ST,75,80,75,64,76,25,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/eddie-nketiah/236988
+2479,Reiss Nelson,England,Arsenal,RM,75,76,69,72,79,36,48,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/reiss-nelson/231448
+2494,Ayden Heaven,England,Man Utd,CB,75,69,31,59,67,76,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ayden-heaven/75087
+2495,Igor Julio,Brazil,Brighton,CB,75,62,42,61,57,75,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/igor-julio/241585
+2501,Jair Cunha,Brazil,Nott'm Forest,CB,75,67,38,59,58,74,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jair-cunha/79629
+2519,Dara O'Shea,Republic of Ireland,Ipswich,CB,75,69,33,56,58,75,79,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dara-o-shea/235405
+2533,Morato,Brazil,Nott'm Forest,CB,75,53,37,57,60,75,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/morato/256008
+2538,Issa Diop,Morocco,Ipswich,CB,75,57,37,55,57,75,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/issa-diop/231633
+2546,Tarik Muharemović,Bosnia and Herzegovina,Leeds United,CB,75,57,23,54,61,76,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tarik-muharemovic/262027
+2549,Ethan Pinnock,Jamaica,Brentford,CB,75,52,36,55,59,77,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ethan-pinnock/238717
+2564,Elliot Stroud,Sweden,Hull City,LB,74,86,67,69,71,68,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/elliot-stroud/272712
+2687,Tatsuhiro Sakamoto,Japan,Coventry City,RM,74,75,66,71,78,62,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tatsuhiro-sakamoto/254910
+2688,Wilfried Gnonto,Italy,Leeds United,LW,74,86,72,66,79,46,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/wilfried-gnonto/258906
+2689,Merlin Röhl,Germany,Everton,CAM,74,76,65,71,75,63,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/merlin-rohl/259714
+2854,Chris Rigg,England,Sunderland,CAM,74,68,68,74,76,60,56,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/chris-rigg/273459
+2876,Josh King,England,Fulham,CAM,74,69,66,73,78,61,52,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/josh-king/70786
+2894,Lamare Bogarde,Holland,Aston Villa,CDM,74,66,53,67,70,72,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lamare-bogarde/264209
+2906,Haji Wright,United States,Coventry City,ST,74,83,73,61,71,33,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/haji-wright/238743
+2916,Julián Araujo,Mexico,AFC Bournemouth,RB,74,83,35,64,70,71,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/julian-araujo/247678
+2942,Emersonn,Brazil,Ipswich,ST,74,81,72,61,76,30,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/emersonn/76803
+2943,Tom Cairney,Scotland,Fulham,CM,74,45,71,76,73,66,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tom-cairney/195202
+2944,Tyler Dibling,England,Everton,RM,74,76,67,71,77,38,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyler-dibling/279497
+2953,Ben Davies,Wales,Spurs,CB,74,52,58,70,70,75,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ben-davies/205923
+2979,Charlie Hughes,England,Hull City,CB,74,68,40,63,65,73,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/charlie-hughes/272895
+3012,Jacob Greaves,England,Ipswich,CB,74,66,40,63,64,74,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jacob-greaves/248602
+3029,Mikey Moore,England,Spurs,LW,74,76,68,72,77,35,54,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mikey-moore/72159
+3047,Bobby Thomas,England,Coventry City,CB,74,64,51,51,57,73,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bobby-thomas/257253
+3059,Fábio Carvalho,Portugal,Brentford,CAM,74,74,69,70,77,46,41,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/fabio-carvalho/256725
+3075,Taiwo Awoniyi,Nigeria,Coventry City,ST,74,66,73,60,69,32,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/taiwo-awoniyi/230978
+3092,Cédric Kipré,Côte d'Ivoire,Ipswich,CB,74,68,36,50,55,72,87,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/cedric-kipre/235458
+3096,Evan Ferguson,Republic of Ireland,Brighton,ST,74,68,75,60,71,21,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/evan-ferguson/259608
+3099,Chadi Riad,Morocco,Crystal Palace,CB,74,61,32,63,63,74,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/chadi-riad/258490
+3128,Aurèle Amenda,Switzerland,Coventry City,CB,74,68,28,53,54,73,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/aurele-amenda/270846
+3148,Caleb Yirenkyi,Ghana,Coventry City,CM,73,75,65,67,73,70,89,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/caleb-yirenkyi/73638
+3236,Victor Torp,Denmark,Coventry City,CDM,73,61,73,75,73,68,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/victor-torp/241645
+3248,Shea Charles,Northern Ireland,Fulham,CDM,73,64,64,72,71,69,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/shea-charles/276695
+3260,Harrison Armstrong,England,Everton,CM,73,67,64,72,72,69,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/harrison-armstrong/74413
+3261,Brandon Thomas-Asante,Ghana,Coventry City,ST,73,83,71,64,72,45,80,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/brandon-thomas-asante/235744
+3262,Marcelino Núñez,Chile,Ipswich,CAM,73,62,71,74,74,64,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marcelino-nunez/256051
+3275,Alex Tóth,Hungary,AFC Bournemouth,CM,73,67,68,74,72,70,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alex-toth/70903
+3344,Jason Steele,England,Brighton,GK,73,74,72,78,72,39,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jason-steele/188836
+3381,Joe Gelhardt,England,Hull City,CAM,73,76,73,69,75,41,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joe-gelhardt/246053
+3392,Benjamin Lecomte,France,Fulham,GK,73,71,72,74,74,41,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/benjamin-lecomte/200726
+3393,Antoni Milambo,Holland,Brentford,CM,73,70,68,70,75,62,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/antoni-milambo/263640
+3419,Luke O'Nien,England,Sunderland,CB,73,66,58,65,67,72,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/luke-o-nien/215700
+3431,Christian Walton,England,Ipswich,GK,73,74,72,72,73,38,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/christian-walton/206561
+3432,Jay Dasilva,Wales,Coventry City,LB,73,77,48,70,76,67,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jay-dasilva/232755
+3460,Charalampos Kostoulas,Greece,Brighton,ST,73,79,72,61,74,41,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/charalampos-kostoulas/73885
+3461,Luca Netz,Germany,Nott'm Forest,LB,73,71,49,70,73,70,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/luca-netz/256781
+3470,Adam Smith,England,AFC Bournemouth,RB,73,56,59,72,70,73,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/adam-smith/190885
+3480,Loum Tchaouna,France,Coventry City,RM,73,86,73,66,72,37,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/loum-tchaouna/264880
+3495,Darnell Furlong,England,Ipswich,RB,73,73,45,61,70,69,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/darnell-furlong/223877
+3509,Mohamed Belloumi,Algeria,Hull City,RM,73,80,72,71,76,37,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mohamed-belloumi/277663
+3565,Abdoul Ouattara,Côte d'Ivoire,Ipswich,RM,73,76,59,69,74,47,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/abdoul-ouattara/75318
+3566,Claudio Echeverri,Argentina,Manchester City,CAM,73,86,67,70,79,38,49,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/claudio-echeverri/276528
+3584,Nilson Angulo,Ecuador,Sunderland,LM,73,78,69,69,74,38,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nilson-angulo/264205
+3637,James McAtee,England,Nott'm Forest,RM,73,70,69,70,75,41,56,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/james-mc-atee/264349
+3667,Liam Kitching,England,Coventry City,CB,73,62,41,58,62,71,82,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/liam-kitching/246873
+3683,Stefanos Tzimas,Greece,Brighton,ST,73,75,72,56,70,31,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/stefanos-tzimas/274699
+3780,Juma Bah,Sierra Leone,Manchester City,CB,73,65,25,53,54,73,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/juma-bah/75148
+3811,Alan Browne,Republic of Ireland,Sunderland,CM,72,69,69,70,72,69,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alan-browne/216464
+3855,Ryan Giles,England,Hull City,LB,72,86,60,71,73,62,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ryan-giles/243608
+3862,Jack Taylor,Republic of Ireland,Ipswich,CDM,72,69,68,68,70,69,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jack-taylor/233851
+3894,Regan Slater,England,Hull City,CDM,72,71,62,70,74,68,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/regan-slater/241953
+3947,Kaine Kesler-Hayden,England,Coventry City,RB,72,88,55,66,71,65,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kaine-kesler-hayden/261335
+3967,Anis Mehmeti,Albania,Ipswich,CAM,72,76,70,68,74,54,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/anis-mehmeti/250816
+4007,Justin Devenny,Northern Ireland,Crystal Palace,CM,72,63,68,73,71,65,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/justin-devenny/73895
+4008,Issa Kaboré,Burkina Faso,Manchester City,RB,72,86,44,64,72,66,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/issa-kabore/253052
+4027,Borna Sosa,Croatia,Crystal Palace,LB,72,68,53,75,73,70,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/borna-sosa/243388
+4045,Paddy McNair,Northern Ireland,Hull City,CB,72,60,62,67,67,73,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/paddy-mc-nair/213697
+4055,Liam Millar,Canada,Hull City,LM,72,85,66,66,75,52,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/liam-millar/240925
+4069,Sidiki Chérif,France,Coventry City,ST,72,86,71,60,72,35,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sidiki-cherif/277485
+4088,Sean Steur,Holland,Newcastle Utd,CM,72,71,53,71,75,64,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sean-steur/77152
+4089,Mateo Joseph,Spain,Leeds United,ST,72,82,73,59,70,45,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mateo-joseph/270206
+4153,Mark Travers,Republic of Ireland,Everton,GK,72,73,69,69,74,40,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mark-travers/232284
+4169,Vítězslav Jaroš,Czech Republic,Liverpool,GK,72,72,70,71,73,39,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/vitezslav-jaros/253428
+4186,Aladji Bamba,France,Newcastle Utd,CM,72,59,57,67,70,67,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/aladji-bamba/75734
+4201,Stefan Bajcetic,Spain,Liverpool,CDM,72,69,52,67,73,71,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/stefan-bajcetic/271975
+4251,Matt Targett,England,Hull City,LB,72,60,51,70,69,72,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matt-targett/218659
+4325,Aarón Anselmino,Argentina,Chelsea,CB,72,72,45,62,63,73,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/aaron-anselmino/278455
+4340,Harrison Reed,England,Fulham,CDM,72,51,62,71,68,71,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/harrison-reed/205990
+4341,David Datro Fofana,Côte d'Ivoire,Chelsea,ST,72,82,70,60,74,25,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/david-datro-fofana/260942
+4354,Romaine Mundle,England,Sunderland,LM,72,78,71,68,74,38,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/romaine-mundle/268903
+4383,Ibrahim Osman,Ghana,Brighton,LM,72,91,64,63,76,28,57,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ibrahim-osman/274516
+4396,Tyrique George,England,Everton,LM,72,78,67,67,74,37,55,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyrique-george/71998
+4482,Luke Woolfenden,England,Coventry City,CB,72,63,34,61,62,72,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/luke-woolfenden/240500
+4492,Michael Svoboda,Austria,Brighton,CB,72,56,47,53,55,71,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/michael-svoboda/250779
+4536,John Egan,Republic of Ireland,Hull City,CB,72,50,46,52,59,73,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/john-egan/204936
+4546,Kota Takai,Japan,Spurs,CB,72,63,32,55,62,72,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kota-takai/264702
+4563,Veljko Milosavljević,Serbia,AFC Bournemouth,CB,72,53,39,55,55,71,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/veljko-milosavljevic/81319
+4656,Matt Crooks,England,Hull City,CAM,71,54,69,68,69,67,85,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matt-crooks/202693
+4657,Josh Eccles,England,Coventry City,CDM,71,69,65,69,69,69,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/josh-eccles/251555
+4717,Josh Dasilva,England,Brentford,CM,71,64,71,72,74,64,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/josh-dasilva/231445
+4749,Kasey McAteer,Republic of Ireland,Ipswich,RM,71,81,67,66,71,54,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kasey-mc-ateer/265801
+4804,Zavier Gozo,United States,Crystal Palace,RM,71,88,65,59,74,48,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/zavier-gozo/278875
+4928,Alex Palmer,England,Ipswich,GK,71,72,70,70,71,38,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alex-palmer/223909
+4961,John Victor,Brazil,Nott'm Forest,GK,71,74,67,66,76,38,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/john-victor/234724
+4982,Freddie Woodman,England,Liverpool,GK,71,72,69,62,71,46,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/freddie-woodman/222514
+4983,Nathan Patterson,Scotland,Everton,RB,71,68,46,66,69,72,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/nathan-patterson/257896
+5014,Illan Meslier,France,Arsenal,GK,71,69,70,68,71,38,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/illan-meslier/242656
+5140,Chuba Akpom,England,Ipswich,ST,71,74,70,59,70,31,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/chuba-akpom/213418
+5152,Ellis Simms,England,Coventry City,ST,71,71,72,56,65,34,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ellis-simms/251198
+5153,Ben Gannon-Doak,Scotland,AFC Bournemouth,RM,71,88,66,67,75,28,52,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ben-gannon-doak/266815
+5169,Fraser Forster,England,AFC Bournemouth,GK,71,70,69,67,71,27,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/fraser-forster/172203
+5190,Marc Guiu,Spain,Chelsea,ST,71,71,70,55,69,36,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marc-guiu/278813
+5292,Eíran Cashin,Republic of Ireland,Brighton,CB,71,55,43,56,59,70,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/eiran-cashin/263914
+5308,Joel Latibeaudiere,Jamaica,Coventry City,CB,71,53,38,57,61,71,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joel-latibeaudiere/233047
+5371,Giovanni Leoni,Italy,Liverpool,CB,71,57,30,54,58,72,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/giovanni-leoni/70824
+5426,Chiedozie Ogbene,Republic of Ireland,Ipswich,RM,70,89,63,64,70,63,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/chiedozie-ogbene/231005
+5448,Malick Yalcouyé,Côte d'Ivoire,Brighton,CM,70,81,61,67,72,65,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/malick-yalcouye/70841
+5494,Eliot Matazo,Belgium,Hull City,CDM,70,68,60,67,73,67,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/eliot-matazo/258433
+5505,Lucas Gourna-Douath,France,Hull City,CDM,70,75,56,64,70,69,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lucas-gourna-douath/257271
+5559,Óscar Zambrano,Ecuador,Hull City,CDM,70,69,59,68,70,67,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/oscar-zambrano/268599
+5635,Lewie Coyle,England,Hull City,RB,70,69,53,66,67,67,75,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lewie-coyle/224099
+5711,Daniel Bentley,England,Coventry City,GK,70,71,67,68,71,46,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/daniel-bentley/198350
+5712,David Ozoh,England,Crystal Palace,CDM,70,65,55,61,68,67,77,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/david-ozoh/273693
+5731,Oliver Dovin,Sweden,Coventry City,GK,70,70,68,68,71,47,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/oliver-dovin/255976
+5776,Toby Collyer,England,Man Utd,CDM,70,67,50,69,68,67,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/toby-collyer/268439
+5823,Max Aarons,England,AFC Bournemouth,RB,70,76,42,64,71,65,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/max-aarons/240060
+5852,Souza,Brazil,Spurs,LB,70,78,45,65,70,66,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/souza/83381
+5909,Romain Esse,England,Crystal Palace,RM,70,76,64,65,75,44,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/romain-esse/273616
+5925,Ewen Jaouen,France,Newcastle Utd,GK,70,71,70,68,70,32,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ewen-jaouen/72022
+6074,Alysson,Brazil,Aston Villa,RM,70,76,65,65,73,34,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alysson/82968
+6075,Semi Ajayi,Nigeria,Hull City,CB,70,67,48,52,59,69,78,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/semi-ajayi/207952
+6142,Sindre Walle Egeli,Norway,Ipswich,RM,70,84,62,62,71,25,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sindre-walle-egeli/71110
+6171,Tyler Bindon,New Zealand,Nott'm Forest,CB,70,55,46,59,64,69,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyler-bindon/277552
+6236,Jesurun Rak-Sakyi,Ghana,Crystal Palace,RM,70,81,68,64,73,24,51,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jesurun-rak-sakyi/264035
+6733,Abdülkadir Ömür,Turkey,Hull City,RM,69,78,63,68,71,53,56,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/abdulkadir-omur/231777
+6833,Jocelin Ta Bi,Côte d'Ivoire,Sunderland,RM,69,88,68,62,74,39,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jocelin-ta-bi/83236
+6834,Cody Drameh,England,Hull City,RB,69,82,37,58,69,66,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/cody-drameh/254529
+6835,Matheus França,Brazil,Crystal Palace,CAM,69,77,68,65,73,36,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matheus-franca/265420
+6875,Hákon Valdimarsson,Iceland,Brentford,GK,69,68,66,70,70,40,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/hakon-valdimarsson/264133
+6952,Lewis Koumas,Wales,Liverpool,LM,69,80,67,62,71,33,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lewis-koumas/70994
+6999,Marcus Bettinelli,England,Manchester City,GK,69,69,69,69,69,30,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/marcus-bettinelli/204246
+7012,Kayne van Oevelen,Holland,Ipswich,GK,69,69,65,74,68,30,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kayne-van-oevelen/271150
+7013,Harry Amass,England,Man Utd,LB,69,77,42,62,70,65,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/harry-amass/273599
+7100,Stephen Mfuni,England,Manchester City,CB,69,74,37,57,66,68,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/stephen-mfuni/81538
+7101,Amario Cozier-Duberry,England,Brighton,RM,69,82,65,62,72,37,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/amario-cozier-duberry/271743
+7584,Darko Gyabi,England,Hull City,CM,68,69,60,65,70,65,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/darko-gyabi/270209
+7658,Jens Hjertø-Dahl,Norway,Hull City,CM,68,62,63,63,68,64,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jens-hjert-dahl/274979
+7931,Melker Ellborg,Sweden,Sunderland,GK,68,69,67,66,68,45,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/melker-ellborg/259987
+7957,James McConnell,England,Liverpool,CDM,68,64,57,68,67,61,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/james-mc-connell/278292
+8054,Gabriel Slonina,United States,Chelsea,GK,68,70,64,63,70,45,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gabriel-slonina/248158
+8081,Ben Wilson,England,Coventry City,GK,68,70,67,62,71,41,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ben-wilson/204825
+8104,Jayden Meghoma,England,Brentford,LB,68,75,44,63,71,62,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jayden-meghoma/278957
+8181,Julio Soler,Argentina,AFC Bournemouth,LB,68,73,47,60,67,67,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/julio-soler/269796
+8249,Kieran Dowell,England,Hull City,RM,68,60,67,71,71,45,55,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kieran-dowell/226401
+8250,Steven Benda,Germany,Nott'm Forest,GK,68,68,65,63,70,37,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/steven-benda/241076
+8251,Daniel Jebbison,Canada,AFC Bournemouth,ST,68,85,65,51,62,30,76,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/daniel-jebbison/262227
+8318,Jake Bidwell,England,Coventry City,LB,68,56,47,63,61,67,73,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jake-bidwell/196952
+8600,Modou Kéba Cissé,Senegal,Aston Villa,CB,68,69,38,53,53,69,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/modou-keba-cisse/77524
+8767,Jenson Seelt,Holland,Sunderland,CB,68,56,35,49,50,68,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jenson-seelt/266467
+9025,Cameron Humphreys,England,Ipswich,CAM,67,67,62,66,68,60,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/cameron-humphreys/264200
+9060,David Akintola,Nigeria,Hull City,RM,67,87,62,59,67,40,70,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/david-akintola/225956
+9202,Trey Nyoni,England,Liverpool,CM,67,67,57,66,70,60,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/trey-nyoni/279128
+9258,Adam Aznou,Morocco,Everton,LB,67,76,52,63,70,65,49,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/adam-aznou/70448
+9308,Zadok Yohanna,Nigeria,Brighton,RM,67,84,63,58,70,40,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/zadok-yohanna/80314
+9357,Tom Heaton,England,Man Utd,GK,67,68,66,65,67,37,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tom-heaton/163264
+9380,Brandon Austin,England,Spurs,GK,67,69,65,64,66,41,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/brandon-austin/236568
+9400,Brau,Spain,Coventry City,LB,67,69,49,62,66,63,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/brau/72423
+9583,César Palacios,Spain,Fulham,CAM,67,65,64,64,67,45,56,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/cesar-palacios/83235
+9626,Jamie Donley,Northern Ireland,Spurs,CAM,67,66,63,66,67,37,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jamie-donley/278557
+9685,Jeremy Monga,England,Manchester City,LW,67,77,60,63,70,34,52,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jeremy-monga/78106
+9768,Gustavo Nunes,Brazil,Brentford,LM,67,81,61,61,69,31,48,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/gustavo-nunes/74759
+9946,Jannik Schuster,Austria,Brentford,CB,67,59,40,51,50,68,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jannik-schuster/79918
+10182,George Abbott,England,Spurs,CM,66,72,62,64,66,60,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/george-abbott/74862
+10208,Daniel Gore,England,Man Utd,CM,66,72,52,64,70,61,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/daniel-gore/268443
+10397,Joe Whitworth,England,Crystal Palace,GK,66,65,67,66,65,46,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joe-whitworth/271191
+10462,Dillon Phillips,England,Hull City,GK,66,66,65,62,66,46,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dillon-phillips/220058
+10488,Joshua Wilson-Esbrand,England,Manchester City,LB,66,81,41,60,68,61,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joshua-wilson-esbrand/264681
+10516,Will Dennis,England,AFC Bournemouth,GK,66,67,65,63,67,39,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/will-dennis/243048
+10634,Ajibola Alese,England,Sunderland,LB,66,74,35,53,59,66,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ajibola-alese/240867
+10635,Luke Chambers,England,Liverpool,LB,66,66,45,62,63,62,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/luke-chambers/271976
+10896,Shumaira Mheuka,England,Chelsea,ST,66,73,65,51,65,31,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/shumaira-mheuka/77540
+10996,Lucas Herrington,Australia,Hull City,CB,66,65,32,46,53,63,83,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/lucas-herrington/75145
+11135,Luc De Fougerolles,Canada,Fulham,CB,66,63,32,45,52,67,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/luc-de-fougerolles/279008
+11290,Jaden Heskey,England,Manchester City,CM,65,70,60,61,66,59,69,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jaden-heskey/83205
+11366,Tyler Fletcher,Scotland,Man Utd,CM,65,66,54,67,65,63,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyler-fletcher/82899
+11445,George Hemmings,England,Aston Villa,CDM,65,68,51,64,67,61,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/george-hemmings/82350
+11505,Simon Moore,England,Sunderland,GK,65,66,64,65,65,47,64,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/simon-moore/194150
+11506,Abdoullah Ba,France,Sunderland,RW,65,72,58,62,68,56,55,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/abdoullah-ba/262149
+11587,Jamaldeen Jimoh-Aloba,England,Aston Villa,CAM,65,82,60,61,67,40,57,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jamaldeen-jimoh-aloba/76255
+11588,Kamari Doyle,England,Brighton,CAM,65,60,63,67,66,51,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kamari-doyle/277922
+11618,Calvin Ramsay,Scotland,Liverpool,RB,65,71,47,63,64,62,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/calvin-ramsay/252897
+11642,Tommi O'Reilly,England,Aston Villa,RM,65,75,59,61,66,50,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tommi-o-reilly/267849
+11795,Bradley Burrowes,England,Aston Villa,RM,65,84,63,58,66,35,51,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/bradley-burrowes/80816
+11904,Triston Rowe,England,Aston Villa,RB,65,80,33,53,57,61,68,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/triston-rowe/78113
+12016,Shea Lacey,England,Man Utd,RM,65,82,59,60,70,35,41,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/shea-lacey/278124
+12037,Ali Al Hamadi,Iraq,Ipswich,ST,65,80,64,47,63,18,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ali-al-hamadi/263376
+12089,Kaye Furo,Belgium,Brentford,ST,65,67,65,54,62,29,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kaye-furo/75452
+12122,Dane Scarlett,England,Spurs,ST,65,75,63,52,66,23,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dane-scarlett/261025
+12166,Brian Madjo,England,Aston Villa,ST,65,70,65,50,58,22,74,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/brian-madjo/80652
+12186,Chido Obi,Denmark,Man Utd,ST,65,69,64,56,62,28,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/chido-obi/77354
+12429,Kim Ji Soo,Korea Republic,Brentford,CB,65,52,29,47,46,65,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kim-ji-soo/267844
+12558,Tyrese Hall,Jamaica,Spurs,CAM,64,73,58,61,66,58,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyrese-hall/72284
+12730,Diego León,Paraguay,Man Utd,LB,64,77,49,58,64,59,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/diego-leon/74142
+12903,Tom King,Wales,Everton,GK,64,64,63,61,64,42,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tom-king/225650
+12920,Teddy Sharman-Lowe,England,Chelsea,GK,64,63,63,63,64,40,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/teddy-sharman-lowe/257126
+13011,Oliver Irow,England,Spurs,LM,64,73,61,60,65,36,56,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/oliver-irow/83028
+13118,Matty Jacob,England,Hull City,LB,64,60,40,58,62,61,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matty-jacob/248692
+13495,Josh Feeney,England,Aston Villa,CB,64,54,32,47,52,64,71,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/josh-feeney/268550
+13719,Raphael,Australia,Coventry City,RM,63,84,55,53,66,45,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/raphael/253403
+13735,Jack Fletcher,England,Man Utd,CM,63,67,57,63,65,56,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jack-fletcher/75439
+13782,Mark O'Mahony,Republic of Ireland,Brighton,ST,63,75,64,54,60,39,72,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mark-o-mahony/272862
+13862,Remi Matthews,England,Crystal Palace,GK,63,64,63,62,63,45,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/remi-matthews/203824
+13952,Tommy Setford,England,Arsenal,GK,63,63,62,63,64,40,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tommy-setford/74892
+14011,Ellery Balcombe,England,Brentford,GK,63,64,62,61,64,39,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ellery-balcombe/236663
+14099,Ethan Wheatley,England,Man Utd,ST,63,75,62,50,62,31,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ethan-wheatley/71973
+14166,Ben Broggio,England,Aston Villa,RM,63,64,58,60,63,39,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/ben-broggio/75767
+14248,Benjamin Fredrick,Nigeria,Brentford,CB,63,70,32,49,58,62,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/benjamin-fredrick/70781
+14331,Zach Abbott,England,Nott'm Forest,CB,63,63,34,52,54,63,66,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/zach-abbott/74242
+14348,Timur Tutierov,Ukraine,Sunderland,ST,63,74,63,51,64,20,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/timur-tutierov/74904
+14668,Kai Andrews,Wales,Coventry City,CM,62,72,56,60,64,57,63,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/kai-andrews/277657
+14679,Callum Olusesi,England,Spurs,CM,62,70,59,62,66,56,57,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/callum-olusesi/75770
+14783,Alex Cairns,England,Leeds United,GK,62,63,61,61,62,49,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alex-cairns/203215
+14871,Caylan Vickers,England,Brighton,ST,62,78,58,55,69,36,55,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/caylan-vickers/277512
+14971,Sam Chambers,Scotland,Leeds United,CAM,62,67,57,61,64,45,51,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sam-chambers/74145
+15024,David Button,England,Ipswich,GK,62,62,60,59,61,39,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/david-button/173533
+15034,Park Seung Soo,Korea Republic,Newcastle Utd,LW,62,87,58,53,65,26,52,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/park-seung-soo/71236
+15035,Mark Gillespie,England,Newcastle Utd,GK,62,63,61,60,64,32,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/mark-gillespie/198039
+15047,Tom McGill,Canada,Brighton,GK,62,62,60,63,63,31,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tom-mc-gill/243588
+15115,Joél Drakes-Thomas,England,Crystal Palace,LW,62,72,55,59,64,35,51,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/joel-drakes-thomas/82815
+15328,Alfie Dorrington,England,Spurs,CB,62,62,30,52,53,61,67,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alfie-dorrington/279117
+15397,Jun'ai Byfield,England,Spurs,CB,62,67,32,43,50,61,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jun-ai-byfield/81899
+15407,Jonah Kusi-Asare,Sweden,Fulham,ST,62,63,59,44,60,26,65,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jonah-kusi-asare/278578
+15666,Eric da Silva Moreira,Germany,Nott'm Forest,RB,61,69,47,57,63,59,56,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/eric-da-silva-moreira/71634
+15959,Harvey Davies,England,Liverpool,GK,61,60,63,57,60,29,59,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/harvey-davies/271977
+16269,Alfie Cresswell,England,Leeds United,CM,60,68,49,60,62,55,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/alfie-cresswell/85912
+16292,Rhys Chadwick,England,Leeds United,CM,60,66,48,58,60,58,62,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rhys-chadwick/73353
+16332,Callum Mills,England,Leeds United,CAM,60,70,53,60,63,47,53,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/callum-mills/88609
+16493,Leo Shahar,England,Newcastle Utd,RB,60,69,42,55,60,56,51,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/leo-shahar/72281
+16514,Jayden Lienou,Wales,Leeds United,LB,60,78,37,48,59,56,54,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/jayden-lienou/85700
+16733,Remy Rees-Dottin,England,AFC Bournemouth,ST,60,69,61,46,61,30,51,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/remy-rees-dottin/76254
+16977,Aidan Borland,Scotland,Aston Villa,CM,59,64,52,59,63,54,54,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/aidan-borland/82934
+17141,Dermot Mee,Northern Ireland,Man Utd,GK,59,60,58,57,59,33,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/dermot-mee/268415
+17179,Rory Mahady,Scotland,Leeds United,GK,59,60,58,59,60,27,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/rory-mahady/88606
+17276,Aidan Harris,England,Newcastle Utd,GK,59,59,57,58,59,24,58,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/aidan-harris/278210
+17339,Sean Neave,England,Newcastle Utd,ST,59,65,60,53,60,22,50,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/sean-neave/77791
+18096,Tyrell Sellars-Fleming,England,Hull City,ST,57,71,58,46,58,27,60,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/tyrell-sellars-fleming/278708
+18362,Matai Akinmboni,United States,AFC Bournemouth,CB,57,54,25,37,43,58,61,https://www.ea.com/games/ea-sports-fc/ratings/player-ratings/matai-akinmboni/271756

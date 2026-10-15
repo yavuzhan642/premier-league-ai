@@ -11,6 +11,7 @@ Geçmiş Premier League maçlarından öğrenen modellerle 2026/27 sezonunu maç
   - Maç sonucu (galibiyet/beraberlik/mağlubiyet) için Logistic Regression
   - Ev sahibi ve deplasman gol sayıları için Poisson Regression
 - **Sezon simülatörü:** Kalan maçları tahmin edilen gol beklentileriyle simüle eder; formu ve Elo puanlarını sezon boyunca dinamik olarak günceller, şampiyonu ve küme düşenleri belirler
+- **Oyuncu reytingleri:** EA Sports FC 27 Premier League oyuncu reytingleri EA'nın sitesinden çekilip API'deki oyuncularla eşleştirilir
 - **Oyuncu simülatörü:** Maç kadrolarını, oynanan dakikaları, golleri ve asistleri oyunculara dağıtarak gol krallığı gibi istatistikler üretir
 - **Tekrarlanabilir senaryolar:** Simülasyonlara bir `seed` verilerek aynı sezon senaryosu tekrar üretilebilir
 
@@ -28,7 +29,7 @@ Geçmiş Premier League maçlarından öğrenen modellerle 2026/27 sezonunu maç
 .
 ├── data/
 │   ├── raw/                 # API önbelleği (git'e eklenmez)
-│   └── processed/           # İşlenmiş maç özellikleri (match_features.csv)
+│   └── processed/           # Maç özellikleri ve FC27 oyuncu reytingleri
 ├── src/
 │   ├── data_loader.py       # Geçmiş ve güncel sezon maç verileri
 │   ├── standings.py         # Puan tablosu hesaplama
@@ -38,6 +39,8 @@ Geçmiş Premier League maçlarından öğrenen modellerle 2026/27 sezonunu maç
 │   ├── goal_model.py        # Gol modeli (Poisson Regression)
 │   ├── simulator.py         # Sezon simülatörü
 │   ├── player_data.py       # Oyuncu kadroları ve gol krallığı verileri
+│   ├── fc27_ratings.py      # FC27 oyuncu reytinglerini çekme
+│   ├── player_ratings.py    # Reytinglerin oyuncularla eşleştirilmesi
 │   ├── player_simulator.py  # Oyuncu bazlı sezon simülatörü
 │   └── api_test.py          # API bağlantı testi
 ├── requirements.txt
@@ -86,6 +89,9 @@ python src/elo.py
 # 2026/27 sezonunu simüle et (seed vermek isteğe bağlıdır)
 python src/simulator.py
 python src/simulator.py 42
+
+# FC27 oyuncu reytinglerini güncelle (isteğe bağlı, CSV repoda hazır)
+python src/fc27_ratings.py
 
 # Oyuncu istatistikleriyle birlikte simüle et
 python src/player_simulator.py
